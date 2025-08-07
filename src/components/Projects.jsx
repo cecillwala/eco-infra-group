@@ -6,7 +6,7 @@ const Projects = () => {
       id: 1,
       partner: "DBSA",
       partnerLogo: "/Projects/DBSA Icon.png",
-      projectImage: "/assets/social-housing.jpg",
+      projectImage: "/Projects/dbsa img.png",
       tagline: "Development Bank of Southeast Africa - Building Africa's Prosperity",
       description: [
         "Project Finance Transaction Advisory for the Social Housing Programme (SHP) for the Infrastructure Fund (IF) Phase 2: Intermediate Phase: Appointment of a Fund Manager"
@@ -16,7 +16,7 @@ const Projects = () => {
       id: 2,
       partner: "LIAISON GROUP",
       partnerLogo: "/Projects/liaison logo.png",
-      projectImage: "/assets/affordable-housing.jpg",
+      projectImage: "/Projects/liaison img.png",
       tagline: "",
       description: [
         "Provision of transaction advisory consultancy services for the construction of Kenya Defense Forces affordable houses in various sites located within Nairobi, Laikipia, Mombasa, and Nakuru under the Affordable Housing Project through Public Private Partnership Initiative"
@@ -26,7 +26,7 @@ const Projects = () => {
       id: 3,
       partner: "East, Central and Southern Africa Health Community",
       partnerLogo: "/Projects/ECS.png",
-      projectImage: "/assets/health-community.jpg",
+      projectImage: "/Projects/ECS img.png",
       tagline: "Financing Project Experience for Better Nature",
       description: [
         "First stage advisory services to a feasibility study and next phase development for the East, Central and Southern Africa Health Community (ECSA HC).",
@@ -38,7 +38,7 @@ const Projects = () => {
       id: 4,
       partner: "THE NAIROBI HOSPITAL",
       partnerLogo: "/Projects/NaiHosp.png",
-      projectImage: "/assets/hospital-refurbishment.jpg",
+      projectImage: "/Projects/naihos img.png",
       tagline: "",
       description: [
         "Environmental Impact Assessment for the refurbishment of the Labour Ward and Theatre and construction of Oncology and Cancer Treatment Centre and Medical Records buildings."
@@ -48,7 +48,7 @@ const Projects = () => {
       id: 5,
       partner: "BIDCO",
       partnerLogo: "/Projects/bidco.png",
-      projectImage: "/assets/bidco-project.jpg",
+      projectImage: "/Projects/bidco img.png",
       tagline: "",
       description: [
         "Execution of three Environmental Impact Assessments (EIAs) for expansion of newer production facilities.",
@@ -60,7 +60,7 @@ const Projects = () => {
       id: 6,
       partner: "ROCO",
       partnerLogo: "/Projects/roco.png",
-      projectImage: "/assets/roco-project.jpg",
+      projectImage: "/Projects/roco img.png",
       tagline: "",
       description: [
         "Collecting primary data and drafting a feasibility study;",
@@ -78,7 +78,7 @@ const Projects = () => {
       id: 7,
       partner: "EAST AFRICAN COMMUNITY LAKE VICTORIA BASIN COMMISSION",
       partnerLogo: "/Projects/EAC.png",
-      projectImage: "/assets/lake-victoria-project.jpg",
+      projectImage: "/Projects/eac img.png",
       tagline: "One People, One Destiny",
       description: [
         "Collecting primary data and drafting a feasibility study;",

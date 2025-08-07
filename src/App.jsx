@@ -7,6 +7,7 @@ import FinancialAdvisory from './components/FinancialAdv';
 import AdvisoryServices from './components/AdvServices';
 import SectorExperience from './components/SectorExp';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <AdvisoryServices />
       <SectorExperience />
       <Projects/>
+      <Footer/>
      
     </>
   );

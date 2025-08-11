@@ -12,9 +12,13 @@ const Navbar = () => {
     <nav className="bg-black text-white sticky top-0 z-50 w-full">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <a href="#home">
-            <img src="/assets/eco logo.png" alt="Bravion Logo" className="h-10" />
-          </a>
+          <a href="#home" className="block w-[120px]"> {/* Container controls click area */}
+          <img 
+            src="/assets/eco logo3.png" 
+            alt="Bravion Logo" 
+            className="w-full h-auto"  // Logo will scale to container width
+          />
+        </a>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex gap-6 text-sm font-semibold">

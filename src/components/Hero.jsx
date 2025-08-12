@@ -23,9 +23,7 @@ const Hero = () => {
           {/* Subtitle with decorative line */}
           <div className="relative mb-8">
             <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-green-500"></div>
-            <span className="relative px-4 bg-black text-xl md:text-2xl font-medium text-green-500 uppercase">
-              Corporate Profile
-            </span>
+            
           </div>
           
           {/* Main content text */}

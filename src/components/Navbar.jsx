@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <a href="#home" className="block w-[120px]"> {/* Container controls click area */}
           <img 
-            src="/assets/eco logo5.png" 
+            src="/assets/eco logo7.png" 
             alt="Bravion Logo" 
             className="w-full h-auto"  // Logo will scale to container width
           />

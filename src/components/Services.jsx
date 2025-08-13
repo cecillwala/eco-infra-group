@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="ourservices" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-16">

@@ -39,7 +39,7 @@ const SectorExperience = () => {
   ];
 
   return (
-    <section id="sector-experience" className="py-20 bg-white">
+    <section id="experience" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-16">

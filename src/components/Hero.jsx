@@ -13,7 +13,7 @@ const Hero = () => {
       />
 
       {/* Content Overlay - Updated to match screenshot */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-30 px-4">
+      <div className="absolute inset-0 flex flex-col justify-start items-center text-center bg-black bg-opacity-30 px-4 pt-20">
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white uppercase tracking-wider">
@@ -22,7 +22,7 @@ const Hero = () => {
           
           {/* Subtitle with decorative line */}
           <div className="relative mb-8">
-            <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-green-500"></div>
+            <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-yellow-500"></div>
             
           </div>
           

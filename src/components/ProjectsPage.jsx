@@ -121,7 +121,7 @@ const ProjectsPage = () => {
     }
   };
 
-  const sectors = [...new Set(projects.map(p => p.sector))];
+  // eslint-disable-next-lineconst sectors = [...new Set(projects.map(p => p.sector))];
 
   return (
     <div className="min-h-screen bg-gray-50">

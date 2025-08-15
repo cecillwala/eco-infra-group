@@ -34,6 +34,43 @@ const FinancialAdvisoryPage = () => {
         "Trainings and capacity building services for institutional investors on alternative asset investments",
         "Independent and transparent valuation of illiquid and private assets"
       ]
+    },
+    {
+      title: "Public Sector Policy Advisory",
+      image: "/assets/AdvServ1.png",
+      items: [
+        "Expertise in Public-Private-Partnership (PPP) financing structures, concessions, management contracts and loans",
+        "Structuring of government and public sector body initiatives and strategic plans",
+        "Mobilization of local and international private capital to address short-and long-term priorities and reduce reliance on budgetary allocations",
+        "Engagement with global development partner networks and mobilization of investment support",
+        "Capacity building for public sector personnel"
+      ]
+    },
+    {
+      title: "Private Equity",
+      image: "/assets/AdvServ2.png",
+      items: [
+        "Origination, negotiation and execution of private equity transactions",
+        "Raising capital from family owned businesses, high-net worth individuals and other institutional investors",
+        "Drafting Marketing documentation",
+        "Organizing and executing roadshows",
+        "Deal Sourcing",
+        "Investment opportunity identification",
+        "Investor and target introduction"
+      ]
+    },
+    {
+      title: "Corporate Finance",
+      image: "/assets/AdvServ3.png",
+      items: [
+        "Prepare an information memorandum for marketing",
+        "Determine optimal capital structure",
+        "Market research on sectors and regions",
+        "Use our network to identify potential investors and financiers",
+        "Negotiate terms & recommend best offer",
+        "Financial close",
+        "Post transaction advisory/monitoring"
+      ]
     }
   ];
 
@@ -70,7 +107,7 @@ const FinancialAdvisoryPage = () => {
           </div>
 
           {/* Advisory Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {advisoryServices.map((service, index) => (
               <div 
                 key={index}
@@ -102,8 +139,6 @@ const FinancialAdvisoryPage = () => {
               </div>
             ))}
           </div>
-
-          
         </div>
       </section>
     </div>

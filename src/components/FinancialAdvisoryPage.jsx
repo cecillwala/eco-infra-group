@@ -1,0 +1,113 @@
+import React from 'react';
+
+const FinancialAdvisoryPage = () => {
+  const advisoryServices = [
+    {
+      title: "Transaction & Strategy Advisory",
+      image: "/assets/FinAdv1.png",
+      items: [
+        "Project feasibility studies to ensure project viability and sustainability",
+        "Financial and operational due diligence, market research and in depth transaction analysis",
+        "Project syndication and the identification of, and engagement with, aligned investors",
+        "Development of relevant investor materials such as teasers and information memoranda",
+        "Valuation of businesses and assets and liabilities analysis in support of negotiations"
+      ]
+    },
+    {
+      title: "Project Finance Structuring",
+      image: "/assets/FinAdv2.png",
+      items: [
+        "Determination of optimal capital structures",
+        "Structuring and arranging finance across the capital structure (equity, mezzanine and senior debt)",
+        "Development of bankable investment feasibility studies and appraisals",
+        "Development of detailed financial models and tools used to identify project funding requirements",
+        "Global and local institutional investor engagement"
+      ]
+    },
+    {
+      title: "Alternative Investment Strategies",
+      image: "/assets/FinAdv3.png",
+      items: [
+        "Development of alternative asset investment strategies",
+        "Development of portfolio risk mitigation strategies for alternative asset investments",
+        "Development and analysis of investment pipeline for projects",
+        "Trainings and capacity building services for institutional investors on alternative asset investments",
+        "Independent and transparent valuation of illiquid and private assets"
+      ]
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-amber-800 to-amber-700 text-white py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Financial Advisory Services
+            </h1>
+            <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+              Comprehensive financial solutions to drive your business forward
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Content Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          {/* Introduction */}
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">
+              Our Advisory Services
+            </h2>
+            <div className="w-20 h-1 bg-amber-700 mx-auto mb-8"></div>
+            <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+              We provide specialized financial advisory services designed to help businesses and investors 
+              navigate complex financial landscapes. Our expertise spans across transaction advisory, 
+              project finance structuring, and alternative investment strategies.
+            </p>
+          </div>
+
+          {/* Advisory Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            {advisoryServices.map((service, index) => (
+              <div 
+                key={index}
+                className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              >
+                {/* Service Image */}
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
+                
+                {/* Service Content */}
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-amber-800 mb-4">
+                    {service.title}
+                  </h3>
+                  <ul className="space-y-3">
+                    {service.items.map((item, i) => (
+                      <li key={i} className="flex items-start">
+                        <span className="inline-block w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="text-gray-700 text-sm leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default FinancialAdvisoryPage;

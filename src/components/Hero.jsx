@@ -4,7 +4,7 @@ const backgroundImage = "/assets/eco hero2.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen overflow-hidden">
+    <section id="hero" className="relative h-screen overflow-hidden">
       {/* Background Image */}
       <img 
         src={backgroundImage} 

@@ -154,31 +154,7 @@ const ProjectsPage = () => {
             </p>
           </div>
 
-          {/* Project Stats */}
-          <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div>
-                <div className="text-3xl font-bold text-amber-700 mb-2">{projects.length}</div>
-                <div className="text-gray-600 text-sm">Total Projects</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-amber-700 mb-2">{sectors.length}</div>
-                <div className="text-gray-600 text-sm">Sectors Served</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-amber-700 mb-2">
-                  {projects.filter(p => p.status === 'Completed').length}
-                </div>
-                <div className="text-gray-600 text-sm">Completed Projects</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-amber-700 mb-2">
-                  {projects.filter(p => p.status === 'In Progress').length}
-                </div>
-                <div className="text-gray-600 text-sm">Active Projects</div>
-              </div>
-            </div>
-          </div>
+          
 
           {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">

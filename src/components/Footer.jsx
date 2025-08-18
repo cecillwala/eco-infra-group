@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center">
           {/* Contact Information */}
           <div className="mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-600 mb-6 uppercase">
+            <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-6 uppercase">
               Contact Us
             </h2>
             
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="w-20 h-1 bg-amber-600 my-6"></div>
 
           {/* Footer Signature */}
-          <p className="text-2xl font-bold text-amber-600">
+          <p className="text-2xl font-bold text-amber-500">
             ECO INFRA CAPITAL
           </p>
         </div>

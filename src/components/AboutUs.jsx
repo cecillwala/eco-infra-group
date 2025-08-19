@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div className="md:w-1/2">
             {/* Section Title with decorative element */}
             <div className="mb-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4 uppercase">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase">
                 What we do
               </h2>
               <div className="w-20 h-1 bg-amber-700"></div>

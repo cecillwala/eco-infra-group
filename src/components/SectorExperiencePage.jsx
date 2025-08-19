@@ -87,7 +87,7 @@ const SectorExperiencePage = () => {
         <div className="container mx-auto px-4">
           {/* Introduction */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
               Our Sector Expertise
             </h2>
             <div className="w-20 h-1 bg-amber-700 mx-auto mb-8"></div>
@@ -122,7 +122,7 @@ const SectorExperiencePage = () => {
 
                 {/* Content */}
                 <div className="lg:w-1/2 w-full">
-                  <h3 className="text-2xl lg:text-3xl font-semibold text-amber-500 mb-6">
+                  <h3 className="text-2xl lg:text-3xl font-semibold text-[#C79336] mb-6">
                     {sector.title}
                   </h3>
                   

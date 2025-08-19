@@ -6,7 +6,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-4 uppercase">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase">
             Our Services
           </h2>
           <div className="w-20 h-1 bg-amber-700 mx-auto"></div>

@@ -9,7 +9,7 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase">
             Our Services
           </h2>
-          <div className="w-20 h-1 bg-amber-700 mx-auto"></div>
+          <div className="w-20 h-1 bg-[#C79336] mx-auto"></div>
         </div>
 
         {/* Service 1: Capital Raising */}

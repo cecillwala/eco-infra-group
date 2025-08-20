@@ -147,7 +147,7 @@ const ProjectsPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
               Project Portfolio
             </h2>
-            <div className="w-20 h-1 bg-amber-700 mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto">
               Our diverse portfolio showcases successful partnerships across multiple sectors, 
               delivering innovative solutions that create lasting value for our clients and communities.
@@ -195,7 +195,7 @@ const ProjectsPage = () => {
                   <div className="mb-4">
                     <h3 className="text-xl font-bold text-amber-800 mb-1">{project.partner}</h3>
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="px-2 py-1 bg-amber-100 text-amber-800 text-xs rounded-full">
+                      <span className="px-2 py-1 text-amber-800 text-xs rounded-full">
                         {project.sector}
                       </span>
                     </div>

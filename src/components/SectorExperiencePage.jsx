@@ -5,7 +5,7 @@ const SectorExperiencePage = () => {
     {
       id: 1,
       title: "Energy and Environment",
-      image: "/assets/SectExp.png",
+      image: "/assets/SectExpe1.png",
       description: [
         "We assist clients measure, quantify and demonstrate Environmental, Social and Governance (ESG) issues and social license to operate in a credible manner that withstands scrutiny from investors, shareholders, regulators and the public.",
         "We also provide guidance on stakeholder mapping and describe the requirements for public participation."
@@ -21,7 +21,7 @@ const SectorExperiencePage = () => {
     {
       id: 2,
       title: "Transport and Infrastructure",
-      image: "/assets/SectExp2.png",
+      image: "/assets/SectExpe2.png",
       description: [
         "We develop solution concepts and deliver initial economic and feasibility studies through to defining and implementing engineering design, construction, commissioning, handover and operation of infrastructure projects."
       ],
@@ -36,7 +36,7 @@ const SectorExperiencePage = () => {
     {
       id: 3,
       title: "Health and Housing",
-      image: "/assets/SectExp3.png",
+      image: "/assets/SectExpe3.png",
       description: [
         "We advise on developing and redeveloping hospital infrastructure, as well as the models that work for a successful Healthcare PPP Project while supporting our clients with project conceptualization, carrying out detailed feasibility studies, the bidding stage and through financial close."
       ],

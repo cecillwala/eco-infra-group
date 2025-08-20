@@ -12,8 +12,8 @@ const Hero = () => {
         className="w-full h-full object-cover absolute"
       />
 
-      {/* Content Overlay - Updated to match screenshot */}
-      <div className="absolute inset-0 flex flex-col justify-start items-center text-center bg-black bg-opacity-30 px-4 pt-20">
+      {/* Content Overlay - Updated to center content vertically */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-30 px-4">
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
           <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">

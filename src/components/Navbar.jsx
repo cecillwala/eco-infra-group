@@ -49,7 +49,7 @@ const Navbar = () => {
             onClick={navigateToHero}
           >
             <img 
-              src="/assets/eco logo9.png" 
+              src="/assets/eco logo10.png" 
               alt="Bravion Logo" 
               className="w-full h-auto"
             />

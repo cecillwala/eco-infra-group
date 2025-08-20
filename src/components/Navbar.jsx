@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Logo link - works on all pages */}
           <Link 
             to="/#hero" 
-            className="block w-[120px]"
+            className="block w-[180px]"   // increased from 120px to 180px (50% bigger)
             onClick={navigateToHero}
           >
             <img 
@@ -54,6 +54,7 @@ const Navbar = () => {
               className="w-full h-auto"
             />
           </Link>
+
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex gap-6 text-sm font-semibold">

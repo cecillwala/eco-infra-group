@@ -16,13 +16,13 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col justify-start items-center text-center bg-black bg-opacity-30 px-4 pt-20">
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white uppercase tracking-wider">
-            ECO INFRA CAPITAL
-          </h1>
+          <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
+                ECO INFRA CAPITAL
+            </h1>
           
           {/* Subtitle with decorative line */}
           <div className="relative mb-8">
-            <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-yellow-500"></div>
+            <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-[#C79336]"></div>
             
           </div>
           

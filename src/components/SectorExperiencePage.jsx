@@ -90,7 +90,7 @@ const SectorExperiencePage = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
               Our Sector Expertise
             </h2>
-            <div className="w-20 h-1 bg-amber-700 mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto">
               With deep industry knowledge and extensive experience, we deliver tailored solutions 
               across multiple sectors. Our multidisciplinary approach ensures comprehensive support 
@@ -160,7 +160,7 @@ const SectorExperiencePage = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-amber-700 mb-2">50+</div>
-                <div className="text-gray-600 text-sm">Projects Completed</div>
+                <div className="text-gray-600 text-sm">Projects</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-amber-700 mb-2">15+</div>

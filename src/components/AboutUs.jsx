@@ -21,7 +21,7 @@ const AboutUs = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase">
                 What we do
               </h2>
-              <div className="w-20 h-1 bg-amber-700"></div>
+              <div className="w-20 h-1 bg-[#C79336]"></div>
             </div>
 
             {/* Main Content */}

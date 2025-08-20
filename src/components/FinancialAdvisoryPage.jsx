@@ -98,7 +98,7 @@ const FinancialAdvisoryPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
               Our Advisory Services
             </h2>
-            <div className="w-20 h-1 bg-amber-700 mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto">
               We provide specialized financial advisory services designed to help businesses and investors 
               navigate complex financial landscapes. Our expertise spans across transaction advisory, 

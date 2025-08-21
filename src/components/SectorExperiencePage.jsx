@@ -34,19 +34,22 @@ const SectorExperiencePage = () => {
       ]
     },
     {
-      id: 3,
-      title: "Health and Housing",
-      image: "/assets/SectExpe3.png",
-      description: [
-        "We advise on developing and redeveloping hospital infrastructure, as well as the models that work for a successful Healthcare PPP Project while supporting our clients with project conceptualization, carrying out detailed feasibility studies, the bidding stage and through financial close."
-      ],
-      keyServices: [
-        "Healthcare infrastructure development",
-        "PPP project structuring",
-        "Hospital redevelopment planning",
-        "Healthcare feasibility studies",
-        "Project bidding support"
-      ]
+    "id": 3,
+    "title": "Health and Housing",
+    "image": "/assets/SectExpe3.png",
+    "description": [
+    "We advise on developing and redeveloping hospital and housing infrastructure, as well as the models that work for a successful PPP Projects while supporting our clients with project conceptualization, carrying out detailed feasibility studies, the bidding stage and through financial close."
+    ],
+    "keyServices": [
+    "Healthcare infrastructure development",
+    "Affordable housing development",
+    "PPP project structuring",
+    "Hospital redevelopment planning",
+    "Residential redevelopment planning",
+    "Healthcare feasibility studies",
+    "Housing feasibility studies",
+    "Project bidding support"
+    ]
     },
     {
       id: 4,

@@ -8,9 +8,9 @@ const Navbar = () => {
   // Separate navigation items into different categories
   const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
-    { label: 'Financial Advisory', path: '/financial-advisory' },
-    { label: 'Partnered Projects', path: '/projects' },
-    { label: 'Experience', path: '/sector-experience' },
+    { label: 'Financial Advisory', path: '/financial-advisory#top' },
+    { label: 'Partnered Projects', path: '/projects#top' },
+    { label: 'Experience', path: '/sector-experience#top' },
   ];
 
   const toggleMenu = () => {

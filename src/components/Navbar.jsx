@@ -28,14 +28,17 @@ const Navbar = () => {
     return anchorMap[label] || label.toLowerCase().replace(/\s/g, '');
   };
 
-  // Function to handle navigation to hero section
-  const navigateToHero = (e) => {
+  // Function to handle navigation to the top of homepage
+  const navigateToHome = (e) => {
     if (location.pathname !== '/') {
-      // If not on homepage, navigate to homepage first
+      // If not on homepage, navigate to homepage
       e.preventDefault();
-      window.location.href = '/#hero';
+      window.location.href = '/';
+    } else {
+      // If already on homepage, scroll to top
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-    // If already on homepage, default anchor behavior will work
   };
 
   // Function to handle navigation to services section
@@ -61,11 +64,11 @@ const Navbar = () => {
     <nav className="bg-black text-white sticky top-0 z-50 w-full">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo link - works on all pages */}
+          {/* Logo link - goes to top of homepage */}
           <Link 
-            to="/#hero" 
+            to="/" 
             className="block w-[180px]"
-            onClick={navigateToHero}
+            onClick={navigateToHome}
           >
             <img 
               src="/assets/eco logo10.png" 
@@ -76,12 +79,12 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex gap-6 text-sm font-semibold">
-            {/* Home Link - works on all pages */}
+            {/* Home Link - goes to top of homepage */}
             <li>
               <Link
-                to="/#hero"
+                to="/"
                 className="hover:text-amber-600 transition"
-                onClick={navigateToHero}
+                onClick={navigateToHome}
               >
                 Home
               </Link>
@@ -161,13 +164,13 @@ const Navbar = () => {
           className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} mt-4 pb-4`}
         >
           <ul className="flex flex-col gap-4 text-sm font-semibold">
-            {/* Home Link - works on all pages */}
+            {/* Home Link - goes to top of homepage */}
             <li>
               <Link
-                to="/#hero"
+                to="/"
                 className="block hover:text-amber-600 transition py-2"
                 onClick={(e) => {
-                  navigateToHero(e);
+                  navigateToHome(e);
                   setIsMenuOpen(false);
                 }}
               >

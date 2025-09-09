@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   
-  // Separate navigation items into different categories
-  const homeLinks = ['About Us', 'Our Services'];
+  // Home page section links (excluding Our Services which needs special handling)
+  const homeLinks = ['About Us'];
   const pageLinks = [
     { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Partnered Projects', path: '/projects#top' },
@@ -33,7 +33,26 @@ const Navbar = () => {
     if (location.pathname !== '/') {
       // If not on homepage, navigate to homepage first
       e.preventDefault();
-      window.location.href = `/#hero`;
+      window.location.href = '/#hero';
+    }
+    // If already on homepage, default anchor behavior will work
+  };
+
+  // Function to handle navigation to services section
+  const navigateToServices = (e) => {
+    if (location.pathname !== '/') {
+      // If not on homepage, navigate directly to services section on homepage
+      e.preventDefault();
+      window.location.href = '/#services';
+    }
+    // If already on homepage, default anchor behavior will work
+  };
+
+  // Function to handle navigation for other home page sections
+  const navigateToHomeSection = (e, section) => {
+    if (location.pathname !== '/') {
+      e.preventDefault();
+      window.location.href = `/#${createAnchorLink(section)}`;
     }
     // If already on homepage, default anchor behavior will work
   };
@@ -45,7 +64,7 @@ const Navbar = () => {
           {/* Logo link - works on all pages */}
           <Link 
             to="/#hero" 
-            className="block w-[180px]"   // increased from 120px to 180px (50% bigger)
+            className="block w-[180px]"
             onClick={navigateToHero}
           >
             <img 
@@ -54,7 +73,6 @@ const Navbar = () => {
               className="w-full h-auto"
             />
           </Link>
-
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex gap-6 text-sm font-semibold">
@@ -75,12 +93,23 @@ const Navbar = () => {
                 <a
                   href={`#${createAnchorLink(label)}`}
                   className="hover:text-amber-600 transition"
-                  onClick={() => location.pathname !== '/' && navigateToHero({ preventDefault: () => {} })}
+                  onClick={(e) => navigateToHomeSection(e, label)}
                 >
                   {label}
                 </a>
               </li>
             ))}
+            
+            {/* Our Services Link - special handling */}
+            <li>
+              <a
+                href="#services"
+                className="hover:text-amber-600 transition"
+                onClick={navigateToServices}
+              >
+                Our Services
+              </a>
+            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (
@@ -153,10 +182,7 @@ const Navbar = () => {
                   href={`#${createAnchorLink(label)}`}
                   className="block hover:text-amber-600 transition py-2"
                   onClick={(e) => {
-                    if (location.pathname !== '/') {
-                      e.preventDefault();
-                      window.location.href = `/#${createAnchorLink(label)}`;
-                    }
+                    navigateToHomeSection(e, label);
                     setIsMenuOpen(false);
                   }}
                 >
@@ -164,6 +190,20 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+            
+            {/* Our Services Link - special handling */}
+            <li>
+              <a
+                href="#services"
+                className="block hover:text-amber-600 transition py-2"
+                onClick={(e) => {
+                  navigateToServices(e);
+                  setIsMenuOpen(false);
+                }}
+              >
+                Our Services
+              </a>
+            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (

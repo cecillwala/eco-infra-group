@@ -24,7 +24,7 @@ const Footer = () => {
                   href="mailto:info@ecoinfra.co.ke" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  info@ecoinfra.co.ke
+                  capital@ecoinfra.co.ke
                 </a>
               </p>
               <p>
@@ -32,7 +32,7 @@ const Footer = () => {
                   href="tel:+254726612470" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  +254713399602
+                  +254 713 399 602
                 </a>
               </p>
             </div>

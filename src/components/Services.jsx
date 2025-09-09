@@ -1,6 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Services = () => {
+  useEffect(() => {
+    // Check if we need to scroll to services section
+    const shouldScrollToServices = sessionStorage.getItem('scrollToServices');
+    if (shouldScrollToServices) {
+      // Clear the flag
+      sessionStorage.removeItem('scrollToServices');
+      // Scroll to services section with a small delay to ensure DOM is ready
+      setTimeout(() => {
+        const servicesElement = document.getElementById('services');
+        if (servicesElement) {
+          servicesElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, []);
+
   return (
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">

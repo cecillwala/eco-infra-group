@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   
   // Home page section links (excluding Our Services which needs special handling)
   const homeLinks = ['About Us'];
@@ -49,6 +50,22 @@ const Navbar = () => {
       window.location.href = '/#services';
     }
     // If already on homepage, default anchor behavior will work
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const navigateToSection = (sectionId) => {
+    if (location.pathname === "/") {
+      scrollToSection(sectionId);
+    } else {
+      navigate("/");
+      setTimeout(() => scrollToSection(sectionId), 100);
+    }
   };
 
   // Function to handle navigation for other home page sections
@@ -108,7 +125,7 @@ const Navbar = () => {
               <a
                 href="#services"
                 className="hover:text-amber-600 transition"
-                onClick={navigateToServices}
+                onClick={() => navigateToSection('services')}
               >
                 Our Services
               </a>

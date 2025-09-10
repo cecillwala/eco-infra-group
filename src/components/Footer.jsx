@@ -24,7 +24,7 @@ const Footer = () => {
                   href="mailto:info@ecoinfra.co.ke" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  capital@ecoinfra.co.ke
+                  contact@ecoinfra.co.ke
                 </a>
               </p>
               <p>

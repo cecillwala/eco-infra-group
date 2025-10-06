@@ -28,7 +28,8 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Eco Infra Capital is a strategic and transaction advisory firm serving public and private sector institutions operating in Africa.
+            Ecos Infra Group is an economic and social infrastructure transaction advisory ﬁrm that provides
+expert advisory services to public and private sector institutions across Africa.
           </p>
         </div>
       </div>

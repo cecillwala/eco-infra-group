@@ -1,3 +1,4 @@
+// eco-infra
 import React, { useState } from 'react';
 import { Link, useLocation} from 'react-router-dom';
 
@@ -80,7 +81,7 @@ const Navbar = () => {
             onClick={navigateToHome}
           >
             <img 
-              src="/assets/eco logo10.png" 
+              src="/assets/eco logo 11.png" 
               alt="Bravion Logo" 
               className="w-full h-auto"
             />

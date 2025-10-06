@@ -28,73 +28,29 @@ const Services = () => {
           <div className="w-20 h-1 bg-[#C79336] mx-auto"></div>
         </div>
 
-        {/* Service 1: Capital Raising */}
+        {/* Service 1: Project Finance & Infrastructure Advisory */}
         <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Capital Raising</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Project Finance & Infrastructure Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                Ecos Infra Group supports clients in raising capital across the full spectrum of funding instruments—equity, debt, mezzanine, and blended finance. We advise both public and private institutions on structuring and securing project financing from domestic and international markets.
+                We specialize in designing innovative finance structures for infrastructure projects. Our services include financial modeling, bankability assessments, debt syndication, and structuring of blended finance solutions.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Our team has experience arranging credit-enhanced instruments, Export Credit Agency (ECA)-backed finance, green bonds, and concessional funding. We also develop bankable investment cases and marketing materials, and coordinate investor roadshows to drive capital mobilization.
+                Ecos Infra Group works with multilateral institutions, DFIs, sovereign funds, and commercial lenders to deliver long-term capital solutions that align with project needs and policy objectives.
               </p>
             </div>
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service1.png"
-              alt="Capital Raising Services"
+              src="/assets/service5.png"
+              alt="Project Finance Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
         </div>
 
-        {/* Service 2: Mergers & Acquisitions */}
-        <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
-          <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Mergers & Acquisitions</h3>
-            <div className="space-y-4">
-              <p className="text-lg text-gray-800 leading-relaxed">
-                We offer end-to-end advisory for mergers, acquisitions, disposals, and joint ventures. Our team supports clients from opportunity identification and due diligence to deal structuring, negotiation, and execution.
-              </p>
-              <p className="text-lg text-gray-800 leading-relaxed">
-                We leverage our regional networks and deep sector knowledge to facilitate strategic combinations that enhance value for investors and stakeholders. Our M&A experience spans infrastructure, real estate, energy, transport, healthcare, and financial services.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/2">
-            <img 
-              src="/assets/service2.png"
-              alt="Mergers & Acquisitions Services"
-              className="w-full h-auto rounded-lg shadow-xl"
-            />
-          </div>
-        </div>
-
-        {/* Service 3: Valuation & Transaction Structuring */}
-        <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
-          <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Valuation & Transaction Structuring</h3>
-            <div className="space-y-4">
-              <p className="text-lg text-gray-800 leading-relaxed">
-                Ecos Infra Group provides independent and strategic valuation services to support fundraising, acquisitions, restructuring, and shareholder transactions. We analyze enterprise value, assets, liabilities, and sector benchmarks to guide negotiations.
-              </p>
-              <p className="text-lg text-gray-800 leading-relaxed">
-                Additionally, we structure optimal financing models, develop robust financial projections, and advise on capital allocation strategies that enhance deal success and financial sustainability.
-              </p>
-            </div>
-          </div>
-          <div className="md:w-1/2">
-            <img 
-              src="/assets/service3.png"
-              alt="Valuation & Transaction Structuring Services"
-              className="w-full h-auto rounded-lg shadow-xl"
-            />
-          </div>
-        </div>
-
-        {/* Service 4: Public-Private Partnerships (PPP) Advisory */}
+        {/* Service 2: Public-Private Partnerships (PPP) Advisory */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Public-Private Partnerships (PPP) Advisory</h3>
@@ -116,27 +72,73 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Service 5: Project Finance & Infrastructure Advisory */}
+        {/* Service 3: Capital Raising */}
         <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Project Finance & Infrastructure Advisory</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Capital Raising</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                We specialize in designing innovative finance structures for infrastructure projects. Our services include financial modeling, bankability assessments, debt syndication, and structuring of blended finance solutions.
+                Ecos Infra Group supports clients in raising capital across the full spectrum of funding instruments—equity, debt, mezzanine, and blended finance. We advise both public and private institutions on structuring and securing project financing from domestic and international markets.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Ecos Infra Group works with multilateral institutions, DFIs, sovereign funds, and commercial lenders to deliver long-term capital solutions that align with project needs and policy objectives.
+                Our team has experience arranging credit-enhanced instruments, Export Credit Agency (ECA)-backed finance, green bonds, and concessional funding. We also develop bankable investment cases and marketing materials, and coordinate investor roadshows to drive capital mobilization.
               </p>
             </div>
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service5.png"
-              alt="Project Finance Services"
+              src="/assets/service1.png"
+              alt="Capital Raising Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
         </div>
+
+        {/* Service 4: Mergers & Acquisitions */}
+        <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Mergers & Acquisitions</h3>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                We offer end-to-end advisory for mergers, acquisitions, disposals, and joint ventures. Our team supports clients from opportunity identification and due diligence to deal structuring, negotiation, and execution.
+              </p>
+              <p className="text-lg text-gray-800 leading-relaxed">
+                We leverage our regional networks and deep sector knowledge to facilitate strategic combinations that enhance value for investors and stakeholders. Our M&A experience spans infrastructure, real estate, energy, transport, healthcare, and financial services.
+              </p>
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <img 
+              src="/assets/service2.png"
+              alt="Mergers & Acquisitions Services"
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+
+        {/* Service 5: Valuation & Transaction Structuring */}
+        <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Valuation & Transaction Structuring</h3>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                Ecos Infra Group provides independent and strategic valuation services to support fundraising, acquisitions, restructuring, and shareholder transactions. We analyze enterprise value, assets, liabilities, and sector benchmarks to guide negotiations.
+              </p>
+              <p className="text-lg text-gray-800 leading-relaxed">
+                Additionally, we structure optimal financing models, develop robust financial projections, and advise on capital allocation strategies that enhance deal success and financial sustainability.
+              </p>
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <img 
+              src="/assets/service3.png"
+              alt="Valuation & Transaction Structuring Services"
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+
+        
 
         {/* Service 6: Restructuring & Insolvency Advisory */}
         <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">

@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
           <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
-                ECO INFRA CAPITAL
+                ECOs INFRA GROUP
             </h1>
           
           {/* Subtitle with decorative line */}

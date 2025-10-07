@@ -8,7 +8,7 @@ const SectorExperiencePage = () => {
     {
       id: 1,
       title: "Energy and Environment",
-      image: "/assets/SectExpe1.png",
+      image: "/assets/SectExpe11.png",
       description: [
         "We provide expert advisory services in the energy sector, with a strong focus on renewable energy and transmission line projects. Our support spans project development, technical and ﬁnancial structuring, regulatory compliance, and stakeholder engagement—ensuring the efficient delivery of sustainable, bankable energy solutions that advance the transition to cleaner power systems.",
         "We assist clients measure, quantify and demonstrate Environmental, Social and Governance (ESG) issues and social license to operate in a credible manner that withstands scrutiny from investors, shareholders, regulators and the public.",

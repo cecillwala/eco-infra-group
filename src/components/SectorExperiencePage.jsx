@@ -10,6 +10,7 @@ const SectorExperiencePage = () => {
       title: "Energy and Environment",
       image: "/assets/SectExpe1.png",
       description: [
+        "We provide expert advisory services in the energy sector, with a strong focus on renewable energy and transmission line projects. Our support spans project development, technical and ﬁnancial structuring, regulatory compliance, and stakeholder engagement—ensuring the efficient delivery of sustainable, bankable energy solutions that advance the transition to cleaner power systems.",
         "We assist clients measure, quantify and demonstrate Environmental, Social and Governance (ESG) issues and social license to operate in a credible manner that withstands scrutiny from investors, shareholders, regulators and the public.",
         "We also provide guidance on stakeholder mapping and describe the requirements for public participation."
       ],
@@ -41,7 +42,8 @@ const SectorExperiencePage = () => {
     "title": "Health and Housing",
     "image": "/assets/SectExpe3.png",
     "description": [
-    "We advise on developing and redeveloping hospital and housing infrastructure, as well as the models that work for a successful PPP Projects while supporting our clients with project conceptualization, carrying out detailed feasibility studies, the bidding stage and through financial close."
+    "We advise on developing and redeveloping hospital and housing infrastructure, as well as the models that work for a successful PPP Projects while supporting our clients with project conceptualization, carrying out detailed feasibility studies, the bidding stage and through financial close.",
+    "We provide strategic advisory services in the housing sector, supporting clients in project planning, ﬁnancing, design, and implementation of sustainable housing solutions. We work with public and private sector partners to develop affordable, resilient, and high-quality housing projects that address urban growth challenges and promote inclusive community development."
     ],
     "keyServices": [
     "Healthcare infrastructure development",

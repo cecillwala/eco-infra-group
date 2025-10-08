@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backgroundImage = "/assets/eco hero3.png";
+const backgroundImage = "/assets/eco hero2.png";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
           <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
-                ECOs INFRA GROUP
+                ECO INFRA CAPITAL
             </h1>
           
           {/* Subtitle with decorative line */}
@@ -28,7 +28,7 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Ecos Infra Group is an economic and social infrastructure transaction advisory ﬁrm that provides
+            Eco Infra Capital is an economic and social infrastructure transaction advisory ﬁrm that provides
 expert advisory services to public and private sector institutions across Africa.
           </p>
         </div>

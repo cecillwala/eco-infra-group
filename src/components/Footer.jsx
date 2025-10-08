@@ -12,11 +12,11 @@ const Footer = () => {
             </h2>
             
             <div className="space-y-3 text-lg">
-              <p>Fortis Tower, 6th Floor</p>
-              <p>Woodvale Grove,</p>
-              <p>Westlands</p>
-              <p>P. O. Box 18941-00100</p>
-              <p>Nairobi - Kenya.</p>
+              <p>CIC Plaza II, 5th Floor</p>
+              <p>Upperhill, Mara Road</p>
+              
+              <p>P. O. Box 57249-00200</p>
+              <p>Nairobi</p>
             </div>
             
             <div className="mt-6 space-y-2">
@@ -25,7 +25,7 @@ const Footer = () => {
                   href="mailto:info@ecoinfra.co.ke" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  infra@ecosinfragroup.com
+                  capital@ecoinfra.co.ke
                 </a>
               </p>
               <p>
@@ -33,7 +33,7 @@ const Footer = () => {
                   href="mailto:info@ecoinfra.co.ke" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  www.ecosinfragroup.com
+                  ecoinfra.co.ke
                 </a>
               </p>
               <p>
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* Footer Signature */}
           <p className="text-2xl font-bold text-[#C79336]">
-            ECOS INFRA GROUP
+            ECO INFRA CAPITAL
           </p>
         </div>
       </div>

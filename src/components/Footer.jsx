@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* Footer Signature */}
           <p className="text-2xl font-bold text-[#C79336]">
-            ECO INFRA CAPITAL
+            ECO INFRA GROUP
           </p>
         </div>
       </div>

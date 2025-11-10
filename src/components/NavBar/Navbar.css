@@ -1,20 +1,35 @@
 .logo{
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    column-gap: 10px;
+    width: 320px;
 }
 
+.logo-text{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0;
+}
 
 .logo img{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
+.span-text{
+    color: #fff;
+}
 
+.logo-text > h1{
+    font-weight: 700;
+    font-size: 2vh;
+}
 
-
-.logo h3{
-    font-weight: 450;    
+.logo-text > small{
+    font-weight: 500;
+}
+.logo > div{
     color: #C79336;
 }

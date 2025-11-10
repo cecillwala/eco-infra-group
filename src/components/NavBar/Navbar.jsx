@@ -88,7 +88,7 @@ const Navbar = () => {
               alt="Bravion Logo" 
               
             />
-            <h3>ECO INFRA GROUP</h3>
+            <h3>ECOS INFRA GROUP</h3>
             </div>
           </Link>
 

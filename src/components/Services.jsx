@@ -122,7 +122,7 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Valuation & Transaction Structuring</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                Eco Infra Group provides independent and strategic valuation services to support fundraising, acquisitions, restructuring, and shareholder transactions. We analyze enterprise value, assets, liabilities, and sector benchmarks to guide negotiations.
+                Ecos Infra Group provides independent and strategic valuation services to support fundraising, acquisitions, restructuring, and shareholder transactions. We analyze enterprise value, assets, liabilities, and sector benchmarks to guide negotiations.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 Additionally, we structure optimal financing models, develop robust financial projections, and advise on capital allocation strategies that enhance deal success and financial sustainability.
@@ -190,7 +190,7 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Public Sector Policy & Strategic Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                Eco Infra Group partners with governments and development institutions to strengthen investment policy frameworks, identify priority projects, and attract private sector participation.
+                Ecos Infra Group partners with governments and development institutions to strengthen investment policy frameworks, identify priority projects, and attract private sector participation.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 We help craft strategic investment plans, advise on regulatory and legal environments, and design mechanisms to increase transparency, efficiency, and fiscal resilience. Our support includes organizing investor roundtables, preparing investment promotion materials, and mobilizing support from development partners.

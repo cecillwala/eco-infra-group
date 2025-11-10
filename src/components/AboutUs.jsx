@@ -9,7 +9,7 @@ const AboutUs = () => {
           <div className="md:w-1/2">
             <img 
               src="/assets/aboutus.png"  // Replace with your actual image path
-              alt="About Eco Infra Capital"
+              alt="About Eco Infra Group"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>

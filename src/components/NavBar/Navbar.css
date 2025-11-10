@@ -1,35 +1,74 @@
-.logo{
+.logo {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    column-gap: 10px;
-    width: 320px;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid #fff; */
+    width: 370px;
 }
 
-.logo-text{
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+/* Logo text container */
+.logo-text {
     display: flex;
     flex-flow: column nowrap;
-    gap: 0;
+    justify-content: flex-start;
+    /* border: 1px #fff solid; */
+    text-align: center;
 }
 
-.logo img{
-    width: 50px;
-    height: 50px;
+/* Heading and small text */
+.logo-text > h1 {
+    font-weight: 700;
+    font-size: 2.75vh;
+    margin: 0;
 }
 
-.span-text{
+.logo-text > small {
+    font-weight: 500;
+    font-size: 1.2vh;
+}
+
+.span-text {
     color: #fff;
 }
 
-.logo-text > h1{
-    font-weight: 700;
-    font-size: 2vh;
+.logo > div {
+    color: #C79336;
 }
 
-.logo-text > small{
-    font-weight: 500;
+/* --- Responsive adjustments --- */
+
+/* Tablets and small laptops */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 260px;
+        column-gap: 8px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
 }
-.logo > div{
-    color: #C79336;
+
+/* Mobile phones */
+@media (max-width: 480px) {
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text > h1 {
+        font-size: 2.25vh;
+    }
+
+    .logo-text > small {
+        font-size: 0.9vh;
+    }
 }

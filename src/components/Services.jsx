@@ -37,7 +37,7 @@ const Services = () => {
                 We specialize in designing innovative finance structures for infrastructure projects. Our services include financial modeling, bankability assessments, debt syndication, and structuring of blended finance solutions.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
-                Eco Infra Group works with multilateral institutions, DFIs, sovereign funds, and commercial lenders to deliver long-term capital solutions that align with project needs and policy objectives.
+                Ecos Infra Group works with multilateral institutions, DFIs, sovereign funds, and commercial lenders to deliver long-term capital solutions that align with project needs and policy objectives.
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Public-Private Partnerships (PPP) Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                PPP advisory is a core competency at Eco Infra Group. We guide clients through the full transaction lifecycle—from project scoping and feasibility studies to procurement design, investor engagement, and financial close.
+                PPP advisory is a core competency at Ecos Infra Group. We guide clients through the full transaction lifecycle—from project scoping and feasibility studies to procurement design, investor engagement, and financial close.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 Our work includes drafting PPP agreements, concession structuring, public sector capacity building, and risk allocation. We've supported landmark PPP initiatives in housing, transport, energy, and healthcare, helping governments leverage private capital for infrastructure development.
@@ -78,7 +78,7 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Capital Raising</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                Eco Infra Group supports clients in raising capital across the full spectrum of funding instruments—equity, debt, mezzanine, and blended finance. We advise both public and private institutions on structuring and securing project financing from domestic and international markets.
+                Ecos Infra Group supports clients in raising capital across the full spectrum of funding instruments—equity, debt, mezzanine, and blended finance. We advise both public and private institutions on structuring and securing project financing from domestic and international markets.
               </p>
               <p className="text-lg text-gray-800 leading-relaxed">
                 Our team has experience arranging credit-enhanced instruments, Export Credit Agency (ECA)-backed finance, green bonds, and concessional funding. We also develop bankable investment cases and marketing materials, and coordinate investor roadshows to drive capital mobilization.

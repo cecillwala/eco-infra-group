@@ -22,18 +22,18 @@ const Footer = () => {
             <div className="mt-6 space-y-2">
               <p>
                 <a 
-                  href="mailto:info@ecoinfra.co.ke" 
+                  href="mailto:infra@ecosinfragroup.com" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  capital@ecoinfra.co.ke
+                 infra@ecosinfragroup.com
                 </a>
               </p>
               <p>
                 <a 
-                  href="mailto:info@ecoinfra.co.ke" 
+                  href="mailto:ecosinfragroup.com" 
                   className="hover:text-amber-500 transition-colors"
                 >
-                  ecoinfra.co.ke
+                  ecosinfragroup.com
                 </a>
               </p>
               <p>

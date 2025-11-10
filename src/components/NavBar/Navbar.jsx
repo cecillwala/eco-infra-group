@@ -83,12 +83,15 @@ const Navbar = () => {
             onClick={navigateToHome}
           >
             <div className='logo'>
-            <img 
-              src="/assets/eco logo11.png" 
-              alt="Bravion Logo" 
-              
-            />
-            <h3>ECO INFRA GROUP</h3>
+              <img 
+                src="/assets/eco logo11.png" 
+                alt="Ecos Infra Group Logo" 
+                
+              />
+                <div className='logo-text'>
+                  <h1>ECOS INFRA GROUP</h1>
+                  <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
+                </div>
             </div>
           </Link>
 

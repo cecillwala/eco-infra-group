@@ -1,6 +1,8 @@
 // eco-infra
 import React, { useState } from 'react';
 import { Link, useLocation} from 'react-router-dom';
+import './Navbar.css';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -72,7 +74,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black text-white sticky top-0 z-50 w-full">
-      <div className="container mx-auto px-4 py-4">
+      <div className="mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo link - goes to top of homepage */}
           <Link 
@@ -80,11 +82,14 @@ const Navbar = () => {
             className="block w-[180px]"
             onClick={navigateToHome}
           >
+            <div className='logo'>
             <img 
-              src="/assets/eco logo10.png" 
+              src="/assets/eco logo11.png" 
               alt="Bravion Logo" 
-              className="w-full h-auto"
+              
             />
+            <h3>ECO INFRA GROUP</h3>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

@@ -4,6 +4,16 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      partner: "Kenyatta National Hospital",
+      partnerLogo: "/Projects/KNH icon.png",
+      projectImage: "/Projects/KNH.png",
+      tagline: "Staff & Caregiver Accommodation - Enhancing Welfare and Service Delivery",
+      description: [
+        "Preparation, structuring, and implementation advisory for KNH staff and caregiver accommodation project under the PPP framework, including needs assessment, market analysis, technical, financial, legal, and environmental & social due diligence, and PPP procurement."
+      ]
+    },
+    {
+      id: 2,
       partner: "DBSA",
       partnerLogo: "/Projects/DBSA Icon.png",
       projectImage: "/Projects/dbsa img.png",
@@ -13,7 +23,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       partner: "LIAISON GROUP",
       partnerLogo: "/Projects/liaison logo.png",
       projectImage: "/Projects/liaison img.png",
@@ -23,7 +33,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       partner: "East, Central and Southern Africa Health Community",
       partnerLogo: "/Projects/ECS.png",
       projectImage: "/Projects/ECS img.png",
@@ -35,7 +45,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       partner: "THE NAIROBI HOSPITAL",
       partnerLogo: "/Projects/NaiHosp.png",
       projectImage: "/Projects/naihos img.png",
@@ -45,7 +55,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       partner: "BIDCO",
       partnerLogo: "/Projects/bidco.png",
       projectImage: "/Projects/bidco img.png",
@@ -57,7 +67,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       partner: "ROCO",
       partnerLogo: "/Projects/roco.png",
       projectImage: "/Projects/roco img.png",
@@ -75,7 +85,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 7,
+      id: 8,
       partner: "EAST AFRICAN COMMUNITY LAKE VICTORIA BASIN COMMISSION",
       partnerLogo: "/Projects/EAC.png",
       projectImage: "/Projects/eac img.png",

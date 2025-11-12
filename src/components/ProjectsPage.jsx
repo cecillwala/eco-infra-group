@@ -10,6 +10,20 @@ const ProjectsPage = () => {
   const projects = [
     {
       id: 1,
+      partner: "Kenyatta National Hospital",
+      partnerLogo: "/Projects/KNH icon.png",
+      projectImage: "/Projects/KNH.png",
+      tagline: "Staff & Caregiver Accommodation - Enhancing Welfare and Service Delivery",
+      sector: "Healthcare",
+      status: "In Progress",
+       description: [
+        "Advisory support for the development of KNH staff and caregiver accommodation, aimed at providing safe, affordable, and conveniently located housing to improve staff welfare and service delivery.",
+        "Conducting comprehensive needs assessment and market analysis to determine the optimal scale and type of accommodation required.",
+        "Carrying out technical, financial, legal, and environmental & social due diligence to ensure project viability, compliance, and sustainability."
+      ]
+    },
+    {
+      id: 2,
       partner: "DBSA",
       partnerLogo: "/Projects/DBSA Icon.png",
       projectImage: "/Projects/dbsa img.png",
@@ -21,7 +35,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       partner: "LIAISON GROUP",
       partnerLogo: "/Projects/liaison logo.png",
       projectImage: "/Projects/liaison img.png",
@@ -33,7 +47,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       partner: "East, Central and Southern Africa Health Community",
       partnerLogo: "/Projects/ECS.png",
       projectImage: "/Projects/ECS img.png",
@@ -47,7 +61,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       partner: "THE NAIROBI HOSPITAL",
       partnerLogo: "/Projects/NaiHosp.png",
       projectImage: "/Projects/naihos img.png",
@@ -59,7 +73,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       partner: "BIDCO",
       partnerLogo: "/Projects/bidco.png",
       projectImage: "/Projects/bidco img.png",
@@ -73,7 +87,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       partner: "ROCO",
       partnerLogo: "/Projects/roco.png",
       projectImage: "/Projects/roco img.png",
@@ -93,7 +107,7 @@ const ProjectsPage = () => {
       ]
     },
     {
-      id: 7,
+      id: 8,
       partner: "EAST AFRICAN COMMUNITY LAKE VICTORIA BASIN COMMISSION",
       partnerLogo: "/Projects/EAC.png",
       projectImage: "/Projects/eac img.png",

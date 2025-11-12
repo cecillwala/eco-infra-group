@@ -7,7 +7,7 @@ import Services from './components/Services';
 
 
 
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import FinancialAdvisoryPage from './components/FinancialAdvisoryPage';
 import SectorExperiencePage from './components/SectorExperiencePage';
 import ProjectsPage from './components/ProjectsPage';

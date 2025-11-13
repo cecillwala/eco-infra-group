@@ -1,5 +1,3 @@
-// 
-
 import React from 'react';
 import './Footer.css';
 
@@ -10,10 +8,10 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-12">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-12 text-center">
 
           {/* Contact Information */}
-          <div className="md:w-1/3">
+          <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Contact Us</h2>
             <p className="mb-1">CIC Plaza II, 5th Floor</p>
             <p className="mb-1">Upperhill, Mara Road</p>
@@ -22,7 +20,7 @@ const Footer = () => {
           </div>
 
           {/* Emails & Phone */}
-          <div className="md:w-1/3">
+          <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Get In Touch</h2>
             <div className="flex flex-col space-y-3 text-lg">
               <a href="mailto:infra@ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
@@ -38,9 +36,9 @@ const Footer = () => {
           </div>
 
           {/* Social Media */}
-          <div className="md:w-1/3">
+          <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Follow Us</h2>
-            <div className="flex space-x-6">
+            <div className="flex justify-center space-x-6">
               <a 
                 href="https://x.com/EcosInfra" 
                 className="hover:scale-110 transform transition-transform" 
@@ -52,7 +50,7 @@ const Footer = () => {
                   className="w-8 h-8" />
               </a>
               <a 
-                href="mailto:ecosinfragroup.com" 
+                href="https://www.linkedin.com/feed/" 
                 className="hover:scale-110 transform transition-transform"
                 target="_blank" 
                 rel="noopener noreferrer">

@@ -28,7 +28,7 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Ecos Infra Group is an economic and social infrastructure transaction advisory firm that provides
+            Ecos Infra Group is an economic and social infrastructure investments and advisory company that provides
 expert advisory services to public and private sector institutions across Africa.
           </p>
         </div>

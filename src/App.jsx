@@ -11,6 +11,10 @@ import Footer from './components/Footer/Footer';
 import FinancialAdvisoryPage from './components/FinancialAdvisoryPage';
 import SectorExperiencePage from './components/SectorExperiencePage';
 import ProjectsPage from './components/ProjectsPage';
+import Institute from './components/Institute/Institute';
+import Group from './components/Group/Group';
+// import EcosInfraLanding from './components/EcoInfraCapital';
+
 
 // Home page component
 const HomePage = () => {
@@ -28,10 +32,11 @@ const HomePage = () => {
 
   return (
     <>
-      <Hero />
-      <AboutUs />
-      <Services />
-      
+      <Navbar/>
+        <Hero />
+        <AboutUs />
+        <Services />
+      <Footer/>
       
       
     </>
@@ -42,14 +47,14 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/financial-advisory" element={<FinancialAdvisoryPage />} />
           <Route path="/sector-experience" element={<SectorExperiencePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/institute" element={<Institute/>} />
+          <Route path="/group" element={<Group/>} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );

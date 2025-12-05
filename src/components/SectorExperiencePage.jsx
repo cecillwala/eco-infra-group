@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Navbar from './NavBar/Navbar';
+import Footer from './Footer/Footer';
 
 const SectorExperiencePage = () => {
   useEffect(() => {
@@ -75,120 +77,124 @@ const SectorExperiencePage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <div id="top" className="bg-gradient-to-r from-amber-800 to-amber-700 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Sector Experience
-            </h1>
-            <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
-              Specialized expertise across key industry sectors
-            </p>
+    <>
+      <Navbar/>
+      <div className="min-h-screen bg-gray-50">
+        {/* Hero Section */}
+        <div id="top" className="bg-gradient-to-r from-amber-800 to-amber-700 text-white py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                Sector Experience
+              </h1>
+              <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+                Specialized expertise across key industry sectors
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Main Content Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          {/* Introduction */}
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
-              Our Sector Expertise
-            </h2>
-            <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
-            <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-              With deep industry knowledge and extensive experience, we deliver tailored solutions 
-              across multiple sectors. Our multidisciplinary approach ensures comprehensive support 
-              for complex projects and strategic initiatives.
-            </p>
-          </div>
+        {/* Main Content Section */}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            {/* Introduction */}
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
+                Our Sector Expertise
+              </h2>
+              <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
+              <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+                With deep industry knowledge and extensive experience, we deliver tailored solutions 
+                across multiple sectors. Our multidisciplinary approach ensures comprehensive support 
+                for complex projects and strategic initiatives.
+              </p>
+            </div>
 
-          {/* Sector Items */}
-          <div className="space-y-20 mb-16">
-            {sectors.map((sector, index) => (
-              <div 
-                key={sector.id} 
-                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12`}
-              >
-                {/* Image - Alternates sides */}
-                <div className="lg:w-1/2 w-full">
-                  <div className="relative group overflow-hidden rounded-xl shadow-lg">
-                    <img 
-                      src={sector.image} 
-                      alt={sector.title}
-                      className="w-full h-64 lg:h-80 object-cover transform group-hover:scale-105 transition duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-                    <div className="absolute top-6 left-6 bg-amber-700 text-white text-xl font-bold w-12 h-12 flex items-center justify-center rounded-full shadow-lg">
-                      {sector.id}
+            {/* Sector Items */}
+            <div className="space-y-20 mb-16">
+              {sectors.map((sector, index) => (
+                <div 
+                  key={sector.id} 
+                  className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12`}
+                >
+                  {/* Image - Alternates sides */}
+                  <div className="lg:w-1/2 w-full">
+                    <div className="relative group overflow-hidden rounded-xl shadow-lg">
+                      <img 
+                        src={sector.image} 
+                        alt={sector.title}
+                        className="w-full h-64 lg:h-80 object-cover transform group-hover:scale-105 transition duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                      <div className="absolute top-6 left-6 bg-amber-700 text-white text-xl font-bold w-12 h-12 flex items-center justify-center rounded-full shadow-lg">
+                        {sector.id}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="lg:w-1/2 w-full">
+                    <h3 className="text-2xl lg:text-3xl font-semibold text-[#C79336] mb-6">
+                      {sector.title}
+                    </h3>
+                    
+                    <div className="space-y-4 mb-6">
+                      {sector.description.map((paragraph, i) => (
+                        <p key={i} className="text-gray-700 leading-relaxed">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+
+                    {/* Key Services */}
+                    <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                      <h4 className="text-lg font-semibold text-amber-800 mb-4">Key Services:</h4>
+                      <ul className="grid grid-cols-1 gap-2">
+                        {sector.keyServices.map((service, i) => (
+                          <li key={i} className="flex items-start">
+                            <span className="inline-block w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <span className="text-gray-700 text-sm">{service}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
+              ))}
+            </div>
 
-                {/* Content */}
-                <div className="lg:w-1/2 w-full">
-                  <h3 className="text-2xl lg:text-3xl font-semibold text-[#C79336] mb-6">
-                    {sector.title}
-                  </h3>
-                  
-                  <div className="space-y-4 mb-6">
-                    {sector.description.map((paragraph, i) => (
-                      <p key={i} className="text-gray-700 leading-relaxed">
-                        {paragraph}
-                      </p>
-                    ))}
-                  </div>
-
-                  {/* Key Services */}
-                  <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
-                    <h4 className="text-lg font-semibold text-amber-800 mb-4">Key Services:</h4>
-                    <ul className="grid grid-cols-1 gap-2">
-                      {sector.keyServices.map((service, i) => (
-                        <li key={i} className="flex items-start">
-                          <span className="inline-block w-2 h-2 bg-amber-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                          <span className="text-gray-700 text-sm">{service}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+            {/* Statistics Section */}
+            <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-amber-800 mb-2">Our Impact</h3>
+                <p className="text-gray-600">Delivering results across multiple sectors</p>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-amber-700 mb-2">50+</div>
+                  <div className="text-gray-600 text-sm">Projects</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-amber-700 mb-2">15+</div>
+                  <div className="text-gray-600 text-sm">Years Experience</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-amber-700 mb-2">100%</div>
+                  <div className="text-gray-600 text-sm">Client Satisfaction</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-amber-700 mb-2">4</div>
+                  <div className="text-gray-600 text-sm">Key Sectors</div>
                 </div>
               </div>
-            ))}
-          </div>
-
-          {/* Statistics Section */}
-          <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-            <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-amber-800 mb-2">Our Impact</h3>
-              <p className="text-gray-600">Delivering results across multiple sectors</p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-amber-700 mb-2">50+</div>
-                <div className="text-gray-600 text-sm">Projects</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-amber-700 mb-2">15+</div>
-                <div className="text-gray-600 text-sm">Years Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-amber-700 mb-2">100%</div>
-                <div className="text-gray-600 text-sm">Client Satisfaction</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-amber-700 mb-2">4</div>
-                <div className="text-gray-600 text-sm">Key Sectors</div>
-              </div>
-            </div>
-          </div>
 
-          
-        </div>
-      </section>
-    </div>
+            
+          </div>
+        </section>
+      </div>
+      <Footer/>
+    </>
   );
 };
 

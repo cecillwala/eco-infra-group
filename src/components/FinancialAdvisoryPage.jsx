@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Navbar from './NavBar/Navbar';
+import Footer from './Footer/Footer';
 
 const FinancialAdvisoryPage = () => {
   useEffect(() => {
@@ -79,6 +81,8 @@ const FinancialAdvisoryPage = () => {
   ];
 
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <div id="top" className="bg-gradient-to-r from-amber-800 to-amber-700 text-white py-16">
@@ -146,6 +150,8 @@ const FinancialAdvisoryPage = () => {
         </div>
       </section>
     </div>
+    <Footer/>
+    </>
   );
 };
 

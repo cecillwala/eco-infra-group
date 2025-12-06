@@ -61,7 +61,7 @@ const Sectors = () => {
   // eslint-disable-next-lineconst sectors = [...new Set(projects.map(p => p.sector))];
 
   return (
-    <>
+    <div id="sectors">
       <div className="">
         <section className="min-h-screen bg-gray-50 py-10">
           <div className="container mx-auto px-4">
@@ -101,7 +101,7 @@ const Sectors = () => {
                     </div>
 
                     <div className="flex-grow">
-                      <p className="text-gray-700 text-sm line-clamp-3">
+                      <p className="line-clamp-3 text-lg text-gray-800 leading-relaxed tracking-normal">
                         {sector.description[0]}
                       </p>
                     </div>
@@ -165,7 +165,7 @@ const Sectors = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

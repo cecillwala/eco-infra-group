@@ -1,4 +1,4 @@
-.missions{
+/* .missions{
     display: flex;
     margin-top: 0;
     flex-flow: row nowrap;
@@ -8,20 +8,14 @@
 
 .mission{
     width: 85ch;
-    /* height: 15vh; */
     border: 1px solid #C79336;
     background-color: #C79336;
     color: #fff;
     padding: 50px;  
-    border-radius: 40px;  
-    /* box-shadow: #777676 1px; */
+    border-radius: 40px;
 }
 
-/* .text{
-
-} */
-
-.why-us{
+.why-us-1{
     background-color: #C79336;
     width: 100%;
     color: #fff;
@@ -31,7 +25,7 @@
 
 
 .objectives{
-    margin-top: 2vh;
+    margin-top: 1vh;
     display: flex;
     flex-flow: column nowrap;
     gap: 8px;
@@ -39,11 +33,126 @@
 }
 
 
-.objective{
-    /* height: 15vh; */
-    border: 1px solid #ccc;
-    padding: 50px;  
+.objective-2{
+    padding-top: 10px;  
     border-radius: 40px;  
-    /* box-shadow: #777676 1px; */
     width: 100%;
+    line-height: 6ch;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.objective-2 > p{
+    margin-bottom: 2vh;
+    max-width: 140ch;
+} */
+
+
+.missions {
+    display: flex;
+    margin-top: 0;
+    flex-flow: row nowrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.mission {
+    width: 85ch;
+    border: 1px solid #C79336;
+    background-color: #C79336;
+    color: #fff;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+.why-us-1 {
+    background-color: #C79336;
+    width: 100%;
+    color: #fff;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.objectives {
+    margin-top: 1vh;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.objective-2 {
+    padding-top: 10px;
+    border-radius: 40px;
+    width: 100%;
+    line-height: 6ch;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.objective-2 > p {
+    margin-bottom: 2vh;
+    max-width: 140ch;
+}
+
+/* ---------------------------------
+      RESPONSIVE BREAKPOINTS
+-----------------------------------*/
+
+/* TABLET (≤1024px) */
+@media (max-width: 1024px) {
+
+    .missions {
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mission {
+        width: 90%;
+        padding: 40px;
+        border-radius: 30px;
+    }
+
+    .why-us-1 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .objective-2 {
+        line-height: 4.5ch;
+    }
+
+    .objective-2 > p {
+        max-width: 100%;
+    }
+}
+
+/* MOBILE (≤600px) */
+@media (max-width: 600px) {
+
+    .missions {
+        flex-flow: column nowrap;
+        gap: 15px;
+    }
+
+    .mission {
+        width: 100%;
+        padding: 25px;
+        border-radius: 25px;
+    }
+
+    .why-us-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .objective-2 {
+        padding-top: 5px;
+        line-height: 3.5ch;
+        border-radius: 25px;
+    }
+
+    .objective-2 > p {
+        margin-bottom: 1.5vh;
+        max-width: 100%;
+    }
 }

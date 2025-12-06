@@ -120,7 +120,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            
             {/* Our Services Link - special handling */}
             <li>
               <a
@@ -143,6 +142,24 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+
+             <li>
+              <a
+                href="/group"
+                className="hover:text-amber-600 transition"
+              >
+                Asset Management
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/institute"
+                className="hover:text-amber-600 transition"
+              >
+                Capacity Building
+              </a>
+            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -238,6 +255,24 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+
+             <li>
+              <a
+                href="/group"
+                className="hover:text-amber-600 transition"
+              >
+                Asset Management
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/institute"
+                className="hover:text-amber-600 transition"
+              >
+                Capacity Building
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -35,18 +35,6 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex-1">
-            <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Business Areas</h2>
-            <div className="flex flex-col space-y-3 text-lg">
-              <p className="mb-1">
-                <a href="/institute" className="hover:text-amber-500 transition-colors">Training And Capacity Building</a>
-              </p>
-              <p className="mb-1">
-                <a href="/group" className="hover:text-amber-500 transition-colors">Financial Advisory And Asset Management</a>
-              </p>
-            </div>
-          </div>
-
           {/* Social Media */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Follow Us</h2>

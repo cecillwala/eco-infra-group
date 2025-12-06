@@ -10,12 +10,7 @@ const Navbar = () => {
   // const [targetSection, setTargetSection] = useState(null);
   
   // Home page section links (excluding Our Services which needs special handling)
-  const homeLinks = ['About Us', 'Our Services', 'Sector We Serve'];
-  const pageLinks = [
-    { label: 'Financial Advisory', path: '/financial-advisory#top' },
-    { label: 'Partnered Projects', path: '/projects#top' },
-    { label: 'Experience', path: '/sector-experience#top' },
-  ];
+  const homeLinks = ['About Us', 'Our Services', 'Sectors We Serve'];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -42,16 +37,6 @@ const Navbar = () => {
       e.preventDefault();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  };
-
-  // Function to handle navigation to services section
-  const navigateToServices = (e) => {
-    if (location.pathname !== '/') {
-      // If not on homepage, navigate directly to services section on homepage
-      e.preventDefault();
-      window.location.href = '/#services';
-    }
-    // If already on homepage, default anchor behavior will work
   };
 
   // const scrollToSection = (sectionId) => {
@@ -119,6 +104,15 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+
+            <li>
+              <a
+                href="/institute"
+                className="hover:text-amber-600 transition"
+              >
+                Capacity Building
+              </a>
+            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -187,33 +181,15 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            
-            {/* Our Services Link - special handling */}
+
             <li>
               <a
-                href="#services"
-                className="block hover:text-amber-600 transition py-2"
-                onClick={(e) => {
-                  navigateToServices(e);
-                  setIsMenuOpen(false);
-                }}
+                href="/institute"
+                className="hover:text-amber-600 transition"
               >
-                Our Services
+                Capacity Building
               </a>
             </li>
-            
-            {/* Separate Page Links */}
-            {pageLinks.map((link, i) => (
-              <li key={i}>
-                <Link
-                  to={link.path}
-                  className="block hover:text-amber-600 transition py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
           </ul>
         </div>
       </div>

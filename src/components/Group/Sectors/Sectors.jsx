@@ -11,7 +11,7 @@ const Sectors = () => {
     {
       id: 1,
       title: "Energy",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/energy.png",
       description: [
             "We support the development and financing of energy infrastructure including transmission lines, mini-grids, renewable energy (solar, wind, hydro), and power generation projects. Our services cover technical feasibility, environmental safeguards, regulatory compliance, and investment structuring."
         ]
@@ -19,7 +19,7 @@ const Sectors = () => {
     {
       id: 2,
       title: "Transport",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/transport.png",
       description: [
             "From highways and expressways to rail, ports, and airports, we advise on strategic transport corridors that facilitate trade, connectivity, and regional development. We provide transaction advisory, social assessments, and public communication strategies for large-scale transport projects."
         ]
@@ -27,7 +27,7 @@ const Sectors = () => {
     {
       id: 3,
       title: "Urban Development",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/urban.png",
       description: [
             "We help governments and private partners shape sustainable cities through advisory services in housing, smart urban planning, resilience-building, and infrastructure integration. Our work includes feasibility studies, policy reform, and inclusive stakeholder engagement."
         ]
@@ -35,7 +35,7 @@ const Sectors = () => {
     {
       id: 4,
       title: "Water and Sanitation",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/water.png",
       description: [
             "We work with utilities, development banks, and ministries to strengthen access to clean water and improved sanitation. Services include technical studies, investment planning, SEIA/RAP development, and community sensitization."
         ]
@@ -43,7 +43,7 @@ const Sectors = () => {
     {
       id: 5,
       title: "Social Infrastructure",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/social.png",
       description: [
             "We support the planning, financing, and delivery of health, education, and public safety infrastructure. Whether it’s schools, hospitals, or public facilities, we ensure infrastructure serves its purpose efficiently and equitably."
         ]
@@ -51,7 +51,7 @@ const Sectors = () => {
     {
       id: 6,
       title: "Climate and Environment",
-      sectorImage: "/Projects/KNH.png",
+      sectorImage: "/assets/climate.png",
       description: [
             "We advise on green infrastructure, climate-smart investments, and adaptation strategies that promote environmental sustainability and resilience. Our team delivers ESIA, climate risk screening, and ESG strategy integration across projects."
         ]

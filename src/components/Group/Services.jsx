@@ -59,7 +59,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service5.png"
+              src="/assets/communications.png"
               alt="Project Finance Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -96,7 +96,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service4.png"
+              src="/assets/management.png"
               alt="PPP Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -130,8 +130,8 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service1.png"
-              alt="Capital Raising Services"
+              src="/assets/training.png"
+              alt="Training On Communication"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
@@ -164,8 +164,8 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service4.png"
-              alt="PPP Advisory Services"
+              src="/assets/special.png"
+              alt="Ecos Infra X (Specialized Services)"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
@@ -196,8 +196,8 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/service1.png"
-              alt="Capital Raising Services"
+              src="/assets/relations.png"
+              alt="Project Public Relations"
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>

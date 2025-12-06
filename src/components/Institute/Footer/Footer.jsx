@@ -13,16 +13,16 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Contact Us</h2>
-            <p className="mb-1">KMA Centre, Block B, Suite 2.2</p>
-            <p className="mb-1">Mara Road, Upperhill</p>
-            <p className="mb-1">P. O. Box 21372-00100</p>
-            <p className="mb-1">Nairobi</p>
+            <p className="mb-1">Kenya Industrial Research and Development Institute</p>
+            <p className="mb-1">Block D, South C, Popo Road</p>
+            <p className="mb-1">P.O Box 18941- 00100</p>
+            <p className="mb-1">Nairobi - Kenya.</p>
           </div>
 
           {/* Emails & Phone */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Get In Touch</h2>
-            <div className="flex flex-col space-y-3 text-lg">
+            <div className="flex flex-col space-y-2 text-lg">
               <a href="mailto:infra@ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
                 infra@ecosinfragroup.com
               </a>
@@ -35,6 +35,18 @@ const Footer = () => {
             </div>
           </div>
 
+          <div className="flex-1">
+            <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Business Areas</h2>
+            <div className="flex flex-col space-y-3 text-lg">
+              <p className="mb-1">
+                <a href="/institute" className="hover:text-amber-500 transition-colors">Training And Capacity Building</a>
+              </p>
+              <p className="mb-1">
+                <a href="/group" className="hover:text-amber-500 transition-colors">Financial Advisory And Asset Management</a>
+              </p>
+            </div>
+          </div>
+          
           {/* Social Media */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Follow Us</h2>
@@ -68,7 +80,7 @@ const Footer = () => {
 
         {/* Footer Signature */}
         <p className="text-center text-2xl font-bold text-[#C79336] tracking-widest">
-          ECOS INFRA GROUP
+          ECOS INFRA INSTITUTE
         </p>
       </div>
     </footer>

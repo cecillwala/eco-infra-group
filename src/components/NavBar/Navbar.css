@@ -1,6 +1,6 @@
 .logo {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
     /* border: 1px solid #fff; */
@@ -15,7 +15,7 @@
 /* Logo text container */
 .logo-text {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: flex-start;
     /* border: 1px #fff solid; */
     text-align: center;

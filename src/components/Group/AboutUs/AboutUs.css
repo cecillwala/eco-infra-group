@@ -1,25 +1,20 @@
-.missions{
+/* .missions{
     display: flex;
     margin-top: 0;
     flex-flow: row nowrap;
-    gap: 7vh;
+    gap: 5vh;
     justify-content: center;
 }
 
 .mission{
     width: 79ch;
-    /* height: 15vh; */
     border: 1px solid #C79336;
     background-color: #C79336;
     color: #fff;
     padding: 40px;  
     border-radius: 40px;  
-    /* box-shadow: #777676 1px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* .text{
-
-} */
 
 .about-us{
     width: 100%;
@@ -38,10 +33,146 @@
 
 
 .objective{
-    /* height: 15vh; */
+    border: 1px solid #ccc;
+    padding: 50px;  
+    border-radius: 40px;
+    width: 100%;
+}
+
+
+.why-us{
+    width: 50%;
+    margin-top: 2vh;
+    align-self: center;
+    border: 1px solid #C79336;
+    border-radius: 40px;
+    background-color: #C79336;
+    color: #fff;
+    padding: 40px;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.mission:hover{
+    transform: translateY(-5px);
+}
+
+.why-us:hover{
+    transform: translateY(-5px);
+} */
+
+.missions{
+    display: flex;
+    margin-top: 0;
+    flex-flow: row nowrap;
+    gap: 5vh;
+    justify-content: center;
+}
+
+.mission{
+    width: 79ch;
+    border: 1px solid #C79336;
+    background-color: #C79336;
+    color: #fff;
+    padding: 40px;  
+    border-radius: 40px;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-us{
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.objectives{
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.objective{
     border: 1px solid #ccc;
     padding: 50px;  
     border-radius: 40px;  
-    /* box-shadow: #777676 1px; */
     width: 100%;
+}
+
+.why-us{
+    width: 50%;
+    margin-top: 2vh;
+    align-self: center;
+    border: 1px solid #C79336;
+    border-radius: 40px;
+    background-color: #C79336;
+    color: #fff;
+    padding: 40px;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission:hover,
+.why-us:hover{
+    transform: translateY(-5px);
+}
+
+/* -------------------------------
+   RESPONSIVE BREAKPOINTS 
+--------------------------------*/
+
+/* Tablet screens (<= 1024px) */
+@media (max-width: 1024px) {
+
+    .missions {
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .mission {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .about-us {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .why-us {
+        width: 80%;
+        padding: 30px;
+    }
+}
+
+/* Mobile screens (<= 600px) */
+@media (max-width: 600px) {
+
+    .missions {
+        flex-flow: column nowrap;
+        gap: 2vh;
+    }
+
+    .mission {
+        width: 100%;
+        padding: 25px;
+        border-radius: 25px;
+    }
+
+    .about-us {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .objective {
+        padding: 30px;
+        border-radius: 25px;
+    }
+
+    .why-us {
+        width: 100%;
+        padding: 25px;
+        border-radius: 25px;
+    }
 }

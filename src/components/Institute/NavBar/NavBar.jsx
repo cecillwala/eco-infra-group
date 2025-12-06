@@ -10,12 +10,7 @@ const Navbar = () => {
   // const [targetSection, setTargetSection] = useState(null);
   
   // Home page section links (excluding Our Services which needs special handling)
-  const homeLinks = ['About Us', 'Our Services', 'Sector We Serve', 'Courses', 'Why Us'];
-  const pageLinks = [
-    { label: 'Financial Advisory', path: '/financial-advisory#top' },
-    { label: 'Partnered Projects', path: '/projects#top' },
-    { label: 'Experience', path: '/sector-experience#top' },
-  ];
+  const homeLinks = ['About Us', 'Our Services', 'Courses', 'Why Us'];
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -65,15 +60,15 @@ const Navbar = () => {
 
   // Function to handle navigation for other home page sections
   const navigateToHomeSection = (e, section) => {
-    if (location.pathname !== '/group') {
+    if (location.pathname !== '/institute') {
       e.preventDefault();
-      window.location.href = `/group/#${createAnchorLink(section)}`;
+      window.location.href = `/institute/#${createAnchorLink(section)}`;
     }
     // If already on homepage, default anchor behavior will work
   };
 
   return (
-    <nav className="bg-black text-white sticky top-0 z-50 w-full">
+    <nav className="bg-black text-white sticky top-0 z-30 w-full">
       <div className="mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo link - goes to top of homepage */}
@@ -90,6 +85,7 @@ const Navbar = () => {
               />
                 <div className='logo-text'>
                   <h1>ECOS INFRA INSTITUTE</h1>
+                  <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
                 </div>
             </div>
           </Link>
@@ -111,7 +107,7 @@ const Navbar = () => {
             {homeLinks.map((label, i) => (
               <li key={i}>
                 <a
-                  href={`/group/#${createAnchorLink(label)}`}
+                  href={`/institute/#${createAnchorLink(label)}`}
                   className="hover:text-amber-600 transition"
                   onClick={(e) => navigateToHomeSection(e, label)}
                 >
@@ -119,6 +115,15 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+
+            <li>
+              <a
+                href="/group"
+                className="hover:text-amber-600 transition"
+              >
+                Asset Management
+              </a>
+            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -188,32 +193,14 @@ const Navbar = () => {
               </li>
             ))}
             
-            {/* Our Services Link - special handling */}
             <li>
               <a
-                href="#services"
-                className="block hover:text-amber-600 transition py-2"
-                onClick={(e) => {
-                  navigateToServices(e);
-                  setIsMenuOpen(false);
-                }}
+                href="/group"
+                className="hover:text-amber-600 transition"
               >
-                Our Services
+                Asset Management
               </a>
             </li>
-            
-            {/* Separate Page Links */}
-            {pageLinks.map((link, i) => (
-              <li key={i}>
-                <Link
-                  to={link.path}
-                  className="block hover:text-amber-600 transition py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
           </ul>
         </div>
       </div>

@@ -4,12 +4,11 @@
     align-items: center;
     justify-content: flex-start;
     /* border: 1px solid #fff; */
-    width: 370px;
+    /* width: 370px; */
 }
 
 .logo img {
-    width: 70px;
-    height: 70px;
+    width: fit-content;
 }
 
 /* Logo text container */

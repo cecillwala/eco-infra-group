@@ -8,8 +8,7 @@
 }
 
 .logo img {
-    width: 70px;
-    height: 70px;
+    width: fit-content;
 }
 
 /* Logo text container */

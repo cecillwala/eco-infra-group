@@ -68,14 +68,14 @@ const Navbar = () => {
           >
             <div className='logo'>
               <img 
-                src="/assets/eco logo11.png" 
+                src="/assets/logo.png" 
                 alt="Ecos Infra Group Logo" 
                 
               />
-                <div className='logo-text'>
+                {/* <div className='logo-text'>
                   <h1>ECOS INFRA GROUP</h1>
                   <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
-                </div>
+                </div> */}
             </div>
           </Link>
 

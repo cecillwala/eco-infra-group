@@ -10,7 +10,7 @@ const Navbar = () => {
   // const [targetSection, setTargetSection] = useState(null);
   
   // Home page section links (excluding Our Services which needs special handling)
-  const homeLinks = ['About Us'];
+  const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
     { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Partnered Projects', path: '/projects#top' },
@@ -120,16 +120,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            {/* Our Services Link - special handling */}
-            <li>
-              <a
-                href="/#services"
-                className="hover:text-amber-600 transition"
-                // onClick={() => navigateToSection('services')}
-              >
-                Our Services
-              </a>
-            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (

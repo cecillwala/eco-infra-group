@@ -79,14 +79,10 @@ const Navbar = () => {
           >
             <div className='logo'>
               <img 
-                src="/assets/eco logo11.png" 
+                src="/assets/logo.png" 
                 alt="Ecos Infra Group Logo" 
                 
               />
-                <div className='logo-text'>
-                  <h1>ECOS INFRA INSTITUTE</h1>
-                  <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
-                </div>
             </div>
           </Link>
 
@@ -115,15 +111,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-
-            <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -192,15 +179,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            
-            <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
           </ul>
         </div>
       </div>

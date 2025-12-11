@@ -12,7 +12,6 @@ const Navbar = () => {
   // Home page section links (excluding Our Services which needs special handling)
   const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
-    { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Partnered Projects', path: '/projects#top' },
     { label: 'Experience', path: '/sector-experience#top' },
   ];
@@ -132,24 +131,6 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-
-             <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -245,24 +226,6 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-
-             <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
         </div>
       </div>

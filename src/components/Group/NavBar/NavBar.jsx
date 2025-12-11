@@ -104,15 +104,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -181,15 +172,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
         </div>
       </div>

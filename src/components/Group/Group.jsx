@@ -5,7 +5,7 @@ import Navbar from './NavBar/NavBar';
 import Footer from './Footer/Footer';
 import Hero from './Hero';
 import AboutUs from './AboutUs/AboutUs';
-import Services from './Services';
+import Services from './Services/Services';
 import Sectors from './Sectors/Sectors';
 
 

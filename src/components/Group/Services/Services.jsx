@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './Services.css';
 
 const Services = () => {
   useEffect(() => {
@@ -59,9 +60,9 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/communications.png"
+              src="/assets/project-communication.png"
               alt="Project Finance Services"
-              className="w-full h-auto rounded-lg shadow-xl"
+              className="w-m-fit h-auto rounded-lg shadow-xl"
             />
           </div>
         </div>
@@ -96,7 +97,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/management.png"
+              src="/assets/stakeholders-management.png"
               alt="PPP Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -130,7 +131,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/training.png"
+              src="/assets/training-on-communication.png"
               alt="Training On Communication"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -164,7 +165,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/special.png"
+              src="/assets/ecoinfrax.png"
               alt="Ecos Infra X (Specialized Services)"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -196,7 +197,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/relations.png"
+              src="/assets/public-relations.png"
               alt="Project Public Relations"
               className="w-full h-auto rounded-lg shadow-xl"
             />

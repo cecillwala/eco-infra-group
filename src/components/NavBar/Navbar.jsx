@@ -45,14 +45,7 @@ const Navbar = () => {
   };
 
   // Function to handle navigation to services section
-  const navigateToServices = (e) => {
-    if (location.pathname !== '/') {
-      // If not on homepage, navigate directly to services section on homepage
-      e.preventDefault();
-      window.location.href = '/#services';
-    }
-    // If already on homepage, default anchor behavior will work
-  };
+
 
   // const scrollToSection = (sectionId) => {
   //   const section = document.getElementById(sectionId);

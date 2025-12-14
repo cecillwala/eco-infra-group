@@ -78,20 +78,13 @@ const Navbar = () => {
           {/* Logo link - goes to top of homepage */}
           <Link 
             to="/" 
-            className="block w-[180px]"
             onClick={navigateToHome}
           >
-            <div className='logo'>
-              <img 
-                src="/assets/logo.png" 
-                alt="Ecos Infra Group Logo" 
-                
-              />
-                {/* <div className='logo-text'>
-                  <h1>ECOS INFRA GROUP</h1>
-                  <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
-                </div> */}
-            </div>
+          <img 
+            className="logo"
+            src="/assets/logo.png" 
+            alt="Ecos Infra Group Logo"
+          />
           </Link>
 
           {/* Desktop Navigation */}
@@ -200,19 +193,6 @@ const Navbar = () => {
               </li>
             ))}
             
-            {/* Our Services Link - special handling */}
-            <li>
-              <a
-                href="#services"
-                className="block hover:text-amber-600 transition py-2"
-                onClick={(e) => {
-                  navigateToServices(e);
-                  setIsMenuOpen(false);
-                }}
-              >
-                Our Services
-              </a>
-            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (

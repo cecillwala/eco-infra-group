@@ -1,14 +1,14 @@
 .logo {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
-    /* border: 1px solid #fff; */
-    /* width: 370px; */
+    /* border: 1px white solid; */
 }
 
 .logo img {
-    width: fit-content;
+    /* border: 1px white solid; */
+    width: 570px;
 }
 
 /* Logo text container */

@@ -77,13 +77,12 @@ const Navbar = () => {
             className="block w-[180px]"
             onClick={navigateToHome}
           >
-            <div className='logo'>
-              <img 
-                src="/assets/logo.png" 
-                alt="Ecos Infra Group Logo" 
-                
-              />
-            </div>
+            <img 
+              className="logo"
+              src="/assets/logo.png" 
+              alt="Ecos Infra Group Logo" 
+              
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -67,13 +67,11 @@ const Footer = () => {
         <div className="w-24 h-1 bg-[#C79336] my-12 mx-auto"></div>
 
         {/* Footer Signature */}
-        <div className='logo mx-auto border-[#ccc]'>
           <img 
+            className="logo mx-auto"
             src="/assets/footer-logo.png" 
             alt="Ecos Infra Group Logo" 
-            
           />
-        </div>
       </div>
     </footer>
   );

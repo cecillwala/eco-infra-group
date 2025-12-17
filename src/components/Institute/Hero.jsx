@@ -28,8 +28,7 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Through our our affiliate company, Ecos Infra Institute provides 
-            various capacity building programmes across Africa and the Middle East. These programmes include
+            Ecos Infra Institute provides various capacity building programmes across Africa and the Middle East. These programmes include
             Public Private Partnership project implementation, project management, contract management and construction Management.
           </p>
         </div>

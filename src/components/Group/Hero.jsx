@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
           <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
-                ECOS INFRA COMMUNCATIONS
+                PROJECT COMMUNICATION
             </h1>
           
           {/* Subtitle with decorative line */}
@@ -42,7 +42,7 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Through our affiliate company Ecos Infra Communications, we provide expert advisory services in project communication,
+            We provide expert advisory services in project communication,
             public engagement, and training. We partner with governments, development
             institutions, and private sector actors to deliver sustainable and transformative
             infrastructure solutions across Africa.

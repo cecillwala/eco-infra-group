@@ -8,7 +8,7 @@
 
 .logo img {
     /* border: 1px white solid; */
-    width: 570px;
+   max-width: 250px;
 }
 
 /* Logo text container */
@@ -43,25 +43,25 @@
 /* --- Responsive adjustments --- */
 
 /* Tablets and small laptops */
-/* @media (max-width: 768px) { */
-    /* .logo {
-        max-width: 260px;
+@media (max-width: 768px) {
+    .logo {
+        max-width: 570px;
         column-gap: 8px;
     }
 
     .logo img {
         width: 45px;
         height: 45px;
-    } */
-/* } */
+    }
+}
 
 /* Mobile phones */
-/* @media (max-width: 480px) { */
+@media (max-width: 480px) {
 
-    /* .logo img {
-        width: 300px;
+    .logo img {
+        max-width: 570px;
         
-    } */
+    }
 
     /* .logo-text > h1 {
         font-size: 2.1vh;
@@ -70,5 +70,5 @@
     .logo-text > small {
         font-size: 0.9vh;
     } */
-/* }  */
+} 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backgroundImage = "/assets/PROFILE IMAGE-01.png";
+const backgroundImage = "/assets/hero-background.png";
 
 const Hero = () => {
   return (

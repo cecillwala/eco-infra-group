@@ -66,22 +66,24 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black text-white sticky top-0 z-50 w-full">
-      <div className="mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+      <div className="px-4 py-4">
+        <div className="flex justify-between">
           {/* Logo link - goes to top of homepage */}
-          <Link 
+          {/* <Link 
             to="/" 
             onClick={navigateToHome}
-          >
+            className='home-link'
+          > */}
           <img 
             className="logo"
             src="/assets/logo.png" 
             alt="Ecos Infra Group Logo"
+            onClick={navigateToHome}
           />
-          </Link>
+          {/* </Link> */}
 
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex gap-6 text-sm font-semibold">
+          <ul className="hidden md:flex gap-6 text-sm font-semibold self-center">
             {/* Home Link - goes to top of homepage */}
             <li>
               <Link

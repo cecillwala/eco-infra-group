@@ -3,14 +3,15 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: flex-start;
+    width: 350px;
     /* border: 1px white solid; */
 }
 
-.logo img {
-    /* border: 1px white solid; */
-   max-width: 250px;
+.home-link{
+    border: 1px white solid;
+    margin: 0;
+    padding: 0;
 }
-
 /* Logo text container */
 .logo-text {
     display: flex;
@@ -45,21 +46,16 @@
 /* Tablets and small laptops */
 @media (max-width: 768px) {
     .logo {
-        max-width: 570px;
-        column-gap: 8px;
-    }
-
-    .logo img {
-        width: 45px;
-        height: 45px;
+        width: 250px;
+        
     }
 }
 
 /* Mobile phones */
 @media (max-width: 480px) {
 
-    .logo img {
-        max-width: 570px;
+    .logo {
+        width: 250px;
         
     }
 

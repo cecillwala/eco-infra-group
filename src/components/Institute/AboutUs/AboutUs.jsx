@@ -11,7 +11,7 @@ const AboutUs = () => {
           <div className="w-20 h-1 bg-[#C79336] mx-auto"></div>
         </div>
         
-      <p className="text-gray-700 text-lg space-y-3 leading-relaxed tracking-normal">
+      <p className="text-gray-700 text-lg space-y-3 leading-relaxed tracking-normal mb-4">
         Ecos Infra Institute is a Kenyan based company which is accredited by APMG to 
         provide the Certified Public Private Partnership Professional (CP3P) Certification course.</p>
 

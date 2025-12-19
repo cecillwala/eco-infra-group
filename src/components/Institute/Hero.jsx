@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-30 px-4">
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
-          <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
+          <h1 class="text-[20px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
                 ECOS INFRA INSTITUTE
             </h1>
           
@@ -28,14 +28,8 @@ const Hero = () => {
           
           {/* Main content text */}
           <p className="text-lg md:text-xl text-white leading-relaxed max-w-2xl mx-auto">
-            Ecos Infra Institute is a capacity building and
-            knowledge transfer company based in Kenya offering
-            various capacity building programmes across Africa
-            and the Middle East. These programmes include
-            Public Private Partnership project
-            implementation, project management,
-            contract management and
-            construction Management.
+            Ecos Infra Institute provides various capacity building programmes across Africa and the Middle East. These programmes include
+            Public Private Partnership project implementation, project management, contract management and construction Management.
           </p>
         </div>
       </div>

@@ -10,9 +10,8 @@ const Navbar = () => {
   // const [targetSection, setTargetSection] = useState(null);
   
   // Home page section links (excluding Our Services which needs special handling)
-  const homeLinks = ['About Us'];
+  const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
-    { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Partnered Projects', path: '/projects#top' },
     { label: 'Experience', path: '/sector-experience#top' },
   ];
@@ -46,14 +45,7 @@ const Navbar = () => {
   };
 
   // Function to handle navigation to services section
-  const navigateToServices = (e) => {
-    if (location.pathname !== '/') {
-      // If not on homepage, navigate directly to services section on homepage
-      e.preventDefault();
-      window.location.href = '/#services';
-    }
-    // If already on homepage, default anchor behavior will work
-  };
+
 
   // const scrollToSection = (sectionId) => {
   //   const section = document.getElementById(sectionId);
@@ -74,29 +66,24 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black text-white sticky top-0 z-50 w-full">
-      <div className="mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+      <div className="px-4 py-4">
+        <div className="flex justify-between">
           {/* Logo link - goes to top of homepage */}
-          <Link 
+          {/* <Link 
             to="/" 
-            className="block w-[180px]"
             onClick={navigateToHome}
-          >
-            <div className='logo'>
-              <img 
-                src="/assets/logo.png" 
-                alt="Ecos Infra Group Logo" 
-                
-              />
-                {/* <div className='logo-text'>
-                  <h1>ECOS INFRA GROUP</h1>
-                  <small><span className='span-text'>ECO</span>NOMIC AND <span className='span-text'>S</span>OCIAL INFRASTRUCTURE</small>
-                </div> */}
-            </div>
-          </Link>
+            className='home-link'
+          > */}
+          <img 
+            className="logo"
+            src="/assets/logo.png" 
+            alt="Ecos Infra Group Logo"
+            onClick={navigateToHome}
+          />
+          {/* </Link> */}
 
           {/* Desktop Navigation */}
-          <ul className="hidden md:flex gap-6 text-sm font-semibold">
+          <ul className="hidden md:flex gap-6 text-sm font-semibold self-center">
             {/* Home Link - goes to top of homepage */}
             <li>
               <Link
@@ -120,16 +107,6 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            {/* Our Services Link - special handling */}
-            <li>
-              <a
-                href="/#services"
-                className="hover:text-amber-600 transition"
-                // onClick={() => navigateToSection('services')}
-              >
-                Our Services
-              </a>
-            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (
@@ -142,24 +119,6 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-
-             <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
 
           {/* Mobile menu button */}
@@ -229,19 +188,6 @@ const Navbar = () => {
               </li>
             ))}
             
-            {/* Our Services Link - special handling */}
-            <li>
-              <a
-                href="#services"
-                className="block hover:text-amber-600 transition py-2"
-                onClick={(e) => {
-                  navigateToServices(e);
-                  setIsMenuOpen(false);
-                }}
-              >
-                Our Services
-              </a>
-            </li>
             
             {/* Separate Page Links */}
             {pageLinks.map((link, i) => (
@@ -255,24 +201,6 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-
-             <li>
-              <a
-                href="/group"
-                className="hover:text-amber-600 transition"
-              >
-                Asset Management
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/institute"
-                className="hover:text-amber-600 transition"
-              >
-                Capacity Building
-              </a>
-            </li>
           </ul>
         </div>
       </div>

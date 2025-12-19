@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from './NavBar/NavBar';
+import Navbar from '../NavBar/Navbar';
 
 import Footer from './Footer/Footer';
 import Hero from './Hero';
@@ -16,6 +16,9 @@ const HomePage = () => {
   const location = useLocation();
 
   useEffect(() => {
+
+    window.scrollTo(0, 0);
+
     if (location.hash) {
       const id = location.hash.replace("#", "");
       const section = document.getElementById(id);

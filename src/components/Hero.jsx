@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backgroundImage = "/assets/PROFILE IMAGE-01.png";
+const backgroundImage = "/assets/hero-background.png";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-30 px-4">
         <div className="max-w-4xl bg-black bg-opacity-70 p-8 rounded-lg">
           {/* Main Title - Styled to match screenshot */}
-          <h1 class="text-[28px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
+          <h1 class="text-[20px] md:text-[35px] font-bold mb-6 text-white uppercase tracking-wider">
                 ECOS INFRA GROUP
             </h1>
           

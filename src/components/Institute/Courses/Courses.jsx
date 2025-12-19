@@ -34,7 +34,7 @@ const Courses = () => {
           <h2 className="text-xl font-bold text-amber-800 mb-4">
             INTRODUCTION
           </h2>
-          <p className="text-lg tracking-normal">
+          <p className="text-lg tracking-normal mb-4">
             The APMG PPP Certification Program is an innovation of the World Bank Group (WBG), the European Bank for Reconstruction and Development
             (EBRD), the Inter-American Development Bank (IDB), the Islamic Development Bank (IsDB), the Multilateral Investment Fund (MIF) and the
             Asian Development Bank (ADB), and part funded by the Public-Private Infrastructure Advisory Facility (PPIAF) with a shared vision of enhancing
@@ -55,16 +55,16 @@ const Courses = () => {
             <h2 className="text-xl font-bold text-amber-800 mb-4">
               COURSE STRUCTURE
             </h2>
-            <p className="text-lg tracking-normal mb-2">
+            <p className="text-lg tracking-normal mb-4">
               CP3P capacity building offerings are designed to equip course participants with complete competencies needed to deliver PPPs successfully. The certification
               is split into three levels; <strong>Foundation, </strong><strong>Preparation</strong> <strong>and Execution.</strong>
             </p>
-            <p className="text-lg tracking-normal mb-2">
+            <p className="text-lg tracking-normal mb-4">
               Successful candidates for each exam will be awarded a certificate. The can take one or both Practitioner exams, in any order, however taking the
               Preparation exam before the Execution exam follows the life cycle of a PPP. Candidates who have passed all three exams will be entitled to use the CP3P
               credential. The diagram below explains the exam pathway to becoming a certified Public-Private Partnerships professional.
             </p>
-            <p className="text-lg tracking-normal mb-2">The core facets of the capacity building are as below:
+            <p className="text-lg tracking-normal mb-4">The core facets of the capacity building are as below:
               <ul className="text-lg tracking-normal">
                 <li>• PPP Introduction and Overview</li>
                 <li>• Establishing a PPP Framework</li>

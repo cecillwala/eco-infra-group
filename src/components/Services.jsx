@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
   useEffect(() => {
@@ -16,6 +17,9 @@ const Services = () => {
       }, 100);
     }
   }, []);
+
+
+  const navigate = useNavigate();
 
   return (
     <section id="services" className="py-20 bg-white">
@@ -185,7 +189,7 @@ const Services = () => {
         </div>
 
         {/* Service 8: Public Sector Policy & Strategic Advisory */}
-        <div className="flex flex-col md:flex-row-reverse items-center gap-12">
+        <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Public Sector Policy & Strategic Advisory</h3>
             <div className="space-y-4">
@@ -204,6 +208,72 @@ const Services = () => {
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
+        </div>
+
+        {/* Service 7: Alternative Investment Strategies */}
+        <div className="flex flex-col md:flex-row items-center gap-12 mb-20 ">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Financial Advisory</h3>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                In  collaboration with our affiliate company, Eco Infra Capital, we provide specialized financial advisory services designed to help businesses and investors 
+                navigate complex financial landscapes. Our expertise spans across transaction advisory, 
+                project finance structuring, and alternative investment strategies.
+              </p>
+              <button onClick={() => navigate("/financial-advisory")} className="border border-[#C79336] font-semibold p-5 pr-9 pl-9 text-xl hover:text-[#fff] hover:bg-[#C79336] duration-300 ease-in-out text-[#C79336] rounded-2xl">Read More</button>
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <img 
+              src="/assets/AdvServ3.png"
+              alt="Alternative Investment Services"
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Project Communication</h3>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                We provide expert advisory services in project communication,
+                public engagement, and training. We partner with governments, development institutions, and private sector actors to deliver 
+                sustainable and transformative infrastructure solutions across Africa.
+              </p>
+              <button onClick={() => navigate("/group")} className="border border-[#C79336] font-semibold p-5 pr-9 pl-9 text-xl hover:text-[#fff] hover:bg-[#C79336] duration-300 ease-in-out text-[#C79336] rounded-2xl">Read More</button>
+            </div>
+
+          </div>
+          <div className="md:w-1/2">
+            <img 
+              src="/assets/assets.png"
+              alt="Public Sector Advisory Services"
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+
+        {/* Service 8: Public Sector Policy & Strategic Advisory */}
+        <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
+          <div className="md:w-1/2">
+            <img 
+              src="/assets/corporate.png"
+              alt="Public Sector Advisory Services"
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Capacity Building</h3>
+            <div className="space-y-4">
+              <p className="text-lg text-gray-800 leading-relaxed">
+                Through our affiliate company, Ecos Infra Institute provides various capacity building programmes across Africa
+                and the Middle East. These programmes include Public Private Partnership project implementation, project management, contract management and construction Management.
+              </p>
+              <button onClick={() => navigate("/institute")} className="border border-[#C79336] font-semibold p-5 pr-9 pl-9 text-xl hover:text-[#fff] hover:bg-[#C79336] duration-300 ease-in-out text-[#C79336] rounded-2xl">Read More</button>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>

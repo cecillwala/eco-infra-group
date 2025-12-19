@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+h3, h4, h2, h5, h1 {
   font-family: 'YDYooncheB';
-}
-
-
-p{
-    font-weight: 400;
 }

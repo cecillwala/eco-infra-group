@@ -13,6 +13,7 @@ const Navbar = () => {
   const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
     { label: 'Partnered Projects', path: '/projects#top' },
+    { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Experience', path: '/sector-experience#top' },
   ];
 
@@ -25,6 +26,7 @@ const Navbar = () => {
     const anchorMap = {
       'About Us': 'aboutus',
       'Our Services': 'services', 
+      'Financial Advisory': 'financialadvisory',
       'Experience': 'sectorexperience',
       'Partnered Projects': 'projects'
     };

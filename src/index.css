@@ -1,8 +1,22 @@
+@font-face {
+  font-family: 'YDYooncheB';
+  src: url('./assets/fonts/YDYooncheB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* h3, h4, h2, h5, h1 {
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h3, h4, h2, h5, h1 {
   font-family: 'YDYooncheB';
-} */
- 
+}
+
+

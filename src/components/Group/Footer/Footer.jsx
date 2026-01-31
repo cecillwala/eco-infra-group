@@ -24,7 +24,7 @@ const Footer = () => {
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Get In Touch</h2>
             <div className="flex flex-col space-y-3 text-lg">
               <a href="mailto:infra@ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
-                infra@ecosinfragroup.com
+                info@ecosinfragroup.com
               </a>
               <a href="mailto:ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
                 ecosinfragroup.com

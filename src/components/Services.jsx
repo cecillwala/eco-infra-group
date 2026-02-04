@@ -247,7 +247,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/assets.png"
+              src="https://res.cloudinary.com/drkmm8xka/image/upload/v1770183123/assets_1_yif4en.png"
               alt="Public Sector Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />

@@ -258,7 +258,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
           <div className="md:w-1/2">
             <img 
-              src="/assets/corporate.png"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1770114255/corporate_lzqz2m.jpg"
               alt="Public Sector Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />

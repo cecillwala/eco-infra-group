@@ -216,7 +216,7 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Financial Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                In  collaboration with our affiliate company, Eco Infra Capital, we provide specialized financial advisory services designed to help businesses and investors 
+                In  collaboration with our affiliate company, Ecos Infra Capital, we provide specialized financial advisory services designed to help businesses and investors 
                 navigate complex financial landscapes. Our expertise spans across transaction advisory, 
                 project finance structuring, and alternative investment strategies.
               </p>
@@ -247,7 +247,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/assets.png"
+              src="https://res.cloudinary.com/drkmm8xka/image/upload/v1770183123/assets_1_yif4en.png"
               alt="Public Sector Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -258,7 +258,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
           <div className="md:w-1/2">
             <img 
-              src="/assets/corporate.png"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1770114255/corporate_lzqz2m.jpg"
               alt="Public Sector Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />

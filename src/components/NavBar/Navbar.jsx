@@ -12,6 +12,7 @@ const Navbar = () => {
   // Home page section links (excluding Our Services which needs special handling)
   const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
+    { label: 'Financial Advisory', path: '/financial-advisory#top' },
     { label: 'Partnered Projects', path: '/projects#top' },
     { label: 'Experience', path: '/sector-experience#top' },
   ];
@@ -25,6 +26,7 @@ const Navbar = () => {
     const anchorMap = {
       'About Us': 'aboutus',
       'Our Services': 'services', 
+      'Financial Advisory': 'financialadvisory',
       'Experience': 'sectorexperience',
       'Partnered Projects': 'projects'
     };

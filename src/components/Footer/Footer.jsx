@@ -13,9 +13,10 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Contact Us</h2>
-            <p className="mb-1">Pinetree Plaza, 8th Floor</p>
-            <p className="mb-1">Kaburu Drive, Off Ngong Road</p>
-            <p className="mb-1">P.O. Box 21372-00100</p>
+
+            <p className="mb-1">Delta Corner Annex, 4th Floor</p>
+            <p className="mb-1">Ring Road, Westlands</p>
+            <p className="mb-1">P. O. Box 13425-00100</p>
             <p className="mb-1">Nairobi</p>
           </div>
 
@@ -24,7 +25,7 @@ const Footer = () => {
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Get In Touch</h2>
             <div className="flex flex-col space-y-3 text-lg">
               <a href="mailto:infra@ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
-                infra@ecosinfragroup.com
+                info@ecosinfragroup.com
               </a>
               <a href="/" className="hover:text-amber-500 transition-colors">
                 ecosinfragroup.com

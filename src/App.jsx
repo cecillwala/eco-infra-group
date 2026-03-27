@@ -12,6 +12,7 @@ import FinancialAdvisoryPage from './components/FinancialAdvisoryPage';
 import SectorExperiencePage from './components/SectorExperiencePage';
 import ProjectsPage from './components/ProjectsPage';
 import Institute from './components/Institute/Institute';
+import Engineering from './components/Engineering/Engineering';
 import Group from './components/Group/Group';
 // import EcosInfraLanding from './components/EcoInfraCapital';
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="/sector-experience" element={<SectorExperiencePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/institute" element={<Institute/>} />
+          <Route path="/engineering" element={<Engineering/>} />
           <Route path="/group" element={<Group/>} />
         </Routes>
       </div>

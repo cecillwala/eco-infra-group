@@ -13,7 +13,8 @@ const Navbar = () => {
   const homeLinks = ['About Us', 'Our Services'];
   const pageLinks = [
     { label: 'Financial Advisory', path: '/financial-advisory#top' },
-    { label: 'Partnered Projects', path: '/projects#top' },
+    // { label: 'Partnered Projects', path: '/projects#top' },
+    { label: 'Engineering Advisory', path: '/engineering#top' },
     { label: 'Experience', path: '/sector-experience#top' },
   ];
 
@@ -27,6 +28,7 @@ const Navbar = () => {
       'About Us': 'aboutus',
       'Our Services': 'services', 
       'Financial Advisory': 'financialadvisory',
+      'Engineering Advisory': 'engineering',
       'Experience': 'sectorexperience',
       'Partnered Projects': 'projects'
     };

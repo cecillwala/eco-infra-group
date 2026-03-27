@@ -1,0 +1,17 @@
+.socials img{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px white solid; */
+}
+
+.logo img {
+    width: 570px;
+}

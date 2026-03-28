@@ -104,11 +104,11 @@ const FinancialAdvisoryPage = () => {
           {/* Introduction */}
           <div className="text-center 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mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4">
-              Eco Infra Capital
+              Ecos Infra Capital
             </h2>
             <div className="w-20 h-1 bg-[#C79336] mx-auto mb-8"></div>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-              Through our affiliate company, Eco Infra Capital, we provide specialized financial advisory services designed 
+              Through our affiliate company, Ecos Infra Capital, we provide specialized financial advisory services designed 
               to help businesses and investors navigate complex financial landscapes. Our expertise spans across transaction advisory, 
               project finance structuring, and alternative investment strategies.
             </p>

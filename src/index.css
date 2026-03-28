@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-/* h3, h4, h2, h5, h1 {
+h3, h4, h2, h5, h1 {
   font-family: 'YDYoonche';
-} */
+}
+
 @font-face {
-  font-family: 'YDYoonche';
+  font-family: 'YDYooncheB';
   src: url('./assets/fonts/YDYooncheB.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'YDYoonche', sans-serif;
+body, p, li, span, td, th {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #374151;
 }
 
-* {
-  font-family: inherit;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'YDYooncheB', sans-serif;
+}
+
+nav a, nav span {
+  font-weight: 700 !important;
+  font-size: 14px;
 }

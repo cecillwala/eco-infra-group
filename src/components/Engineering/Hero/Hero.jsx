@@ -17,14 +17,18 @@ const HeroSection = ({ backgroundImage, title, description }) => {
       <div className="absolute inset-0 bg-black/60" />
 
       {/* Content box */}
-      <div className="relative z-10 max-w-3xl mx-auto text-center px-4">
+      <div className="relative z-10 max-w-3xl text-center px-4">
         <div className="bg-black/70 p-10 rounded-lg">
           <h1 className="text-2xl md:text-4xl font-bold text-white uppercase tracking-widest mb-4">
             {title}
           </h1>
 
           {/* Gold divider line */}
-          <div className="w-24 h-[2px] bg-[#C79336] mx-auto mb-6" />
+            <div className="relative mb-8">
+            <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-[#C79336]"></div>
+            
+          </div>
+         
 
           <p className="text-base md:text-lg text-white leading-relaxed">
             {description}

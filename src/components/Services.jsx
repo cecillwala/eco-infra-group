@@ -210,13 +210,13 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Service 7: Alternative Investment Strategies */}
+        {/* Service 7: Financial Advisory*/}
         <div className="flex flex-col md:flex-row items-center gap-12 mb-20 ">
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Financial Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                In  collaboration with our affiliate company, Eco Infra Capital, we provide specialized financial advisory services designed to help businesses and investors 
+                In  collaboration with our affiliate company, Ecos Infra Capital, we provide specialized financial advisory services designed to help businesses and investors 
                 navigate complex financial landscapes. Our expertise spans across transaction advisory, 
                 project finance structuring, and alternative investment strategies.
               </p>
@@ -231,17 +231,18 @@ const Services = () => {
             />
           </div>
         </div>
-
+     {/* Service 8: Engineering Advisory*/}
         <div className="flex flex-col md:flex-row-reverse items-center gap-12 mb-20">
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Project Communication</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Engineering Advisory</h3>
             <div className="space-y-4">
               <p className="text-lg text-gray-800 leading-relaxed">
-                We provide expert advisory services in project communication,
-                public engagement, and training. We partner with governments, development institutions, and private sector actors to deliver 
-                sustainable and transformative infrastructure solutions across Africa.
+                We deliver integrated energy sector advisory services combining strategic, technical, and independent engineering expertise across power, transmission, and oil and gas developments.<br></br>
+                 </p>
+                <p className="text-lg text-gray-800 leading-relaxed">
+                We provide expert advisory services in delivering Water Security, Agricultural Productivity, and Climate Resilience Across Sub-Saharan Africa.
               </p>
-              <button onClick={() => navigate("/group")} className="border border-[#C79336] font-semibold p-5 pr-9 pl-9 text-xl hover:text-[#fff] hover:bg-[#C79336] duration-300 ease-in-out text-[#C79336] rounded-2xl">Read More</button>
+              <button onClick={() => navigate("/engineering")} className="border border-[#C79336] font-semibold p-5 pr-9 pl-9 text-xl hover:text-[#fff] hover:bg-[#C79336] duration-300 ease-in-out text-[#C79336] rounded-2xl">Read More</button>
             </div>
 
           </div>

@@ -23,7 +23,7 @@ const EnergyAboutUs = () => {
 
           <div className="bg-[#fdf8f0] rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1772237252/TRANSMISION_LINES_td9xab.jpg"
               alt="Transmission"
               className="w-full h-64 object-cover"
             />
@@ -41,7 +41,7 @@ const EnergyAboutUs = () => {
 
           <div className="bg-[#fdf8f0] rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
             <img
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1772237267/HEALTH_AND_SAFETY-02_bfnppi.jpg"
               alt="HSE ESG"
               className="w-full h-64 object-cover"
             />
@@ -68,8 +68,7 @@ const IrrigationAboutUs = () => {
     <section id="aboutus" className="about-us py-10 bg-gray-100">
 
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase"
-            style={{ fontFamily: "'Quicksand', sans-serif" }}>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#C79336] mb-4 uppercase">
           About Us
         </h2>
         <div className="w-20 h-1 bg-[#C79336] mx-auto"></div>
@@ -79,17 +78,16 @@ const IrrigationAboutUs = () => {
         <div className="objective-1 bg-white p-12 rounded-2xl shadow-lg border border-gray-100 hover:-translate-y-2 transition-all duration-300 col-span-2 max-w-5xl mx-auto w-full relative">
 
           {/* Decorative circle */}
-          <div className="absolute top-0 right-0 w-40 h-40 bg-[#C79336] opacity-5 rounded-full -translate-y-10 translate-x-10"></div>
 
-          <h3 className="text-2xl font-semibold text-[#C79336] mb-4 text-left"
-              style={{ fontFamily: "'Quicksand', sans-serif" }}>
+
+          <h3 className="text-2xl font-semibold text-[#C79336] mb-4 text-left">
             Capability Overview
           </h3>
 
           <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
             <div className="w-16 h-1 bg-[#C79336] mb-6"></div>
 
-            <p style={{ fontFamily: "'Quicksand', sans-serif" }}>
+            <p className="text-gray-700">
               We provide integrated irrigation engineering and independent engineering advisory services
               that enable governments, financiers, and private developers to design, implement, and manage
               sustainable water infrastructure. Our practice combines technical excellence, commercial insight,
@@ -97,13 +95,13 @@ const IrrigationAboutUs = () => {
               Africa's diverse hydrological and agricultural landscapes.
             </p>
 
-            <p style={{ fontFamily: "'Quicksand', sans-serif" }}>
+            <p className="text-gray-700">
               Operating across Sub-Saharan Africa, we deliver solutions that enhance food security, optimize
               water resource utilization, and strengthen long-term asset performance while safeguarding
               environmental and social sustainability.
             </p>
 
-            <p style={{ fontFamily: "'Quicksand', sans-serif" }}>
+            <p className="text-gray-700">
               We act as trusted technical partners throughout the entire project lifecycle from feasibility
               and investment structuring to construction oversight and operational optimization.
             </p>

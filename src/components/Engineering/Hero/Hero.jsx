@@ -1,7 +1,7 @@
 import React from "react";
 
-const energyBg = "https://res.cloudinary.com/drkmm8xka/image/upload/v1770183123/assets_1_yif4en.png";
-const irrigationBg = "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1600&q=80";
+const energyBg = "https://res.cloudinary.com/duwyaucf1/image/upload/v1772237031/ENERGY_AND_TRANSMISSION_msxbdi.jpg";
+const irrigationBg = "https://res.cloudinary.com/duwyaucf1/image/upload/v1771841847/water_security_ecos_infra_t9mou8.png";
 
 const HeroSection = ({ backgroundImage, title, description }) => {
   return (
@@ -14,7 +14,7 @@ const HeroSection = ({ backgroundImage, title, description }) => {
       />
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/40" />
 
       {/* Content box */}
       <div className="relative z-10 max-w-3xl text-center px-4">

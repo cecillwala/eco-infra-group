@@ -53,10 +53,7 @@ const Services = () => {
               className="service-bubble group"
               style={{
                 borderLeft: '4px solid #C79336',
-                borderTop: '1px solid #e8e0d0',
-                borderRight: '1px solid #e8e0d0',
-                borderBottom: '1px solid #e8e0d0',
-                borderRadius: '0 12px 12px 0',
+                borderRadius: '12px',
                 padding: '28px 36px',
                 background: '#ffffff',
                 maxWidth: '1200px',
@@ -74,12 +71,11 @@ const Services = () => {
               }}
             >
               <h4 style={{
-                fontSize: '13px',
+                fontSize: '16px',
                 fontWeight: '800',
                 color: '#C79336',
                 textTransform: 'uppercase',
-                letterSpacing: '0.12em',
-                marginBottom: '10px',
+                letterSpacing: '0.05em',
               }}>
                 {item.title}
               </h4>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backgroundImage = "/assets/corporate.png";
+const backgroundImage = "https://res.cloudinary.com/duwyaucf1/image/upload/v1774817408/Screenshot_2026-03-29_234832_a7nqh6.png";
 
 const Hero = () => {
   return (

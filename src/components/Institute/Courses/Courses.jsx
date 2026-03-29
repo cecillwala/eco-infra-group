@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Courses.css';
 
-const img = '/assets/courses.png';
+const img = 'https://res.cloudinary.com/duwyaucf1/image/upload/v1774593039/courses_1_y03nl8_sfyxf1.png';
 
 const Courses = () => {
   useEffect(() => {

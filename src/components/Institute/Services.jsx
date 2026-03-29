@@ -50,7 +50,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/capacity.png"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1774817555/Screenshot_2026-03-29_235127_boigwc.png"
               alt="Project Finance Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -71,7 +71,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/maturity.png"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1774817684/Screenshot_2026-03-29_235237_zuguf2.png"
               alt="PPP Advisory Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />
@@ -91,7 +91,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src="/assets/consultancy.png"
+              src="https://res.cloudinary.com/duwyaucf1/image/upload/v1774817866/Screenshot_2026-03-29_235507_p3bugs.png"
               alt="Capital Raising Services"
               className="w-full h-auto rounded-lg shadow-xl"
             />

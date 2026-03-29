@@ -17,7 +17,7 @@ body, p, li, span, td, th {
   font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 h1, h2, h3, h4, h5, h6 {

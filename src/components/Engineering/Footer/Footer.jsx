@@ -13,9 +13,9 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#C79336] mb-6 uppercase">Contact Us</h2>
-            <p className="mb-1">Pinetree Plaza, 8th Floor</p>
+             <p className="mb-1">Pinetree Plaza, 8th Floor</p>
             <p className="mb-1">Kaburu Drive, Off Ngong Road</p>
-            <p className="mb-1">P.O. Box 21372-00100</p>
+            <p className="mb-1">P.O. Box 633-00200</p>
             <p className="mb-1">Nairobi</p>
           </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
               <a href="mailto:infra@ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
                 info@ecosinfragroup.com
               </a>
-              <a href="/" className="hover:text-amber-500 transition-colors">
+              <a href="mailto:ecosinfragroup.com" className="hover:text-amber-500 transition-colors">
                 ecosinfragroup.com
               </a>
               <a href="tel:+254726612470" className="hover:text-amber-500 transition-colors">
@@ -78,3 +78,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

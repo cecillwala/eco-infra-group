@@ -21,3 +21,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Fonts
+src/assets/fonts/
+
+# Images
+src/assets/images/
+
+# General large files
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.mp4
+*.mov
